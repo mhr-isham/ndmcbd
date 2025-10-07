@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Administration",
+    "description": "The Administration Section orchestrates seamless operations and inclusivity within the Notre Dame Math Club.\n hello world",
+    "icon": "user-settings"
+  },
+  {
+    "title": "Olympiad",
+    "description": "The Administration Section orchestrates seamless operations and inclusivity within the Notre Dame Math Club.",
+    "icon": "hourglass"
+  },
+  {
+    "title": "Designing",
+    "description": "The Administration Section orchestrates seamless operations and inclusivity within the Notre Dame Math Club.",
+    "icon": "pencil-ruler-2"
+  },
+  {
+    "title": "Photography",
+    "description": "The Administration Section orchestrates seamless operations and inclusivity within the Notre Dame Math Club.",
+    "icon": "camera-lens"
+  },
+  {
+    "title": "IT",
+    "description": "The Administration Section orchestrates seamless operations and inclusivity within the Notre Dame Math Club.",
+    "icon": "git-branch"
+  },
+  {
+    "title": "Project Display",
+    "description": "The Administration Section orchestrates seamless operations and inclusivity within the Notre Dame Math Club.",
+    "icon": "slideshow"
+  },
+  {
+    "title": "Magazine",
+    "description": "The Administration Section orchestrates seamless operations and inclusivity within the Notre Dame Math Club.",
+    "icon": "book-open"
+  },
+  {
+    "title": "Videography",
+    "description": "The Administration Section orchestrates seamless operations and inclusivity within the Notre Dame Math Club.",
+    "icon": "movie-2"
+  }
+]

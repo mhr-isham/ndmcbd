@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- HTML Meta Tags -->
+    <title>Notre Dame Math Club</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore the beauty of mathematics, solve challenging problems, and connect with like-minded peers."
+    />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://www.ndmcbd.org" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Notre Dame Math Club" />
+    <meta
+      property="og:description"
+      content="Explore the beauty of mathematics, solve challenging problems, and connect with like-minded peers."
+    />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/ndmc/image/upload/v1703370113/03ff524992aecea795fa49c8ce5ae294.png"
+    />
+
+    <meta property="fb:app_id" content="852938275631874" />
+    <!-- Twitter Meta Tags -->
+    <meta
+      name="twitter:card"
+      content="Explore the beauty of mathematics, solve challenging problems, and connect with like-minded peers."
+    />
+    <meta property="twitter:domain" content="ndmcbd.org" />
+    <meta property="twitter:url" content="https://www.ndmcbd.org" />
+    <meta name="twitter:title" content="Notre Dame Math Club" />
+    <meta
+      name="twitter:description"
+      content="Explore the beauty of mathematics, solve challenging problems, and connect with like-minded peers."
+    />
+    <meta
+      name="twitter:image"
+      content="https://res.cloudinary.com/ndmc/image/upload/v1703370113/03ff524992aecea795fa49c8ce5ae294.png"
+    />
+    <link rel="icon" type="image/svg+xml" href="./src/assets/ndmc.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script
+      src="https://upload-widget.cloudinary.com/global/all.js"
+      type="text/javascript"
+    ></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-ZVVNNLP0EC"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-ZVVNNLP0EC");
+    </script>
+
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
+
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "1473900466041003");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v18.0",
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+  </body>
+</html>
