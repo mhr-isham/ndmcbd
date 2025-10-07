@@ -101,19 +101,19 @@ const SectorsSection = () => {
           </div>
         </StyledCard>
       </StyledGrid>
-      {/* Academic */}
+      {/* Academics */}
       <StyledGrid item xs={12} sm={4.5} md={3.5} lg={2.5} data-aos="zoom-out">
         <StyledCard
           icon={"hourglass"}
           icontype={"line"}
-          title={"Academic"}
+          title={"Academics"}
           shortDesc={
-            "The Academic Department of the Notre Dame College Math Club is a vibrant core where mathematical talent is nurtured into competitive brilliance. This is where the thrill of competition meets the joy of discovery."
+            "The Academics Department of the Notre Dame College Math Club is a vibrant core where mathematical talent is nurtured into competitive brilliance. This is where the thrill of competition meets the joy of discovery."
           }
         >
           <div style={{ padding: "15px 10px" }}>
             <Typography sx={{ mb: 2 }}>
-              The Academic Department of the Notre Dame College Math Club is a
+              The Academics Department of the Notre Dame College Math Club is a
               vibrant core where mathematical talent is nurtured into
               competitive brilliance. This is where the thrill of competition
               meets the joy of discovery.

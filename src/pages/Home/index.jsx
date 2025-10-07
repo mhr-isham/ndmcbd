@@ -375,7 +375,7 @@ const Home = () => {
                 >
                   <StyledGrid item lg={5.7} sm={12} data-aos="zoom-in-up">
                     <Testimonial
-                      name={"Foysal Aziz"}
+                      name={"Md. Rezaul Karim"}
                       designation={"Club Moderator"}
                       img={moderator}
                     >
@@ -388,7 +388,7 @@ const Home = () => {
                   </StyledGrid>
                   <StyledGrid item lg={5.7} sm={12} data-aos="zoom-in-up">
                     <Testimonial
-                      name={"Reasat Prottoy"}
+                      name={"Shahriar Sabit Sarthok"}
                       designation={"General Secretary"}
                       img={Gs}
                     >
