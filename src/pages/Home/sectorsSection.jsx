@@ -285,93 +285,65 @@ const SectorsSection = () => {
         </StyledCard>
       </StyledGrid>
 
-      {/* Graphics */}
-      <StyledGrid item xs={12} sm={4.5} md={3.5} lg={2.5} data-aos="zoom-out">
-        <StyledCard
-          icon={"pencil-ruler-2"}
-          icontype={"line"}
-          title={"Graphics"}
-          shortDesc={
-            "The Graphics Department of our club is a progressive, innovative center that brings our ideas, activities, and brand to life. This team of talented designers, illustrators, and visual storytellers works together to create captivating content"
-          }
-        >
-          <div style={{ padding: "15px 10px" }}>
-            <Typography variant="body1">
-              The Graphics Department of our club is a progressive, innovative
-              center that brings our ideas, activities, and brand to life. This
-              team of talented designers, illustrators, and visual storytellers
-              works together to create captivating content.
-            </Typography>
+             
 
-            
-            <Typography sx={{ mt: 2, mb: 1 }}>
-              The team collaborates to transform ideas into visually appealing
-              stories for our weekly articles posted on NDMC’s official Facebook
-              page.
-            </Typography>
-            <Typography sx={{ mt: 2, mb: 1 }}>
-              The department takes the lead in brainstorming, editing, and
-              designing the two editorials of NDMC, “The Function” and “The
-              Plane”. Their creativity drives the ideas for our annual wall
-              magazine and annual magazine.
-            </Typography>
-            <Typography sx={{ mt: 2, mb: 1 }}>
-              Every poster, banner, crest, and certificate for our workshops,
-              sessions, and events is a work of craft by the graphics
-              department. They play a crucial role in promoting events and
-              making them visually appealing.
-            </Typography>
-
-            <Typography sx={{ mt: 2, mb: 1 }}>
-              The Graphics Department is more than just a department; it’s a
-              vibrant hub where creativity meets innovation, producing impactful
-              visuals that help our club run smoothly.
-            </Typography>
-          </div>
-        </StyledCard>
-      </StyledGrid>
-
-       {/* IT */}
+       {/* Graphics and IT */}
 
        <StyledGrid item xs={12} sm={4.5} md={3.5} lg={2.5} data-aos="zoom-out">
         <StyledCard
-          icon={"git-branch"}
+          icon={"pencil-ruler-2"}
           icontype={"line"}
-          title={"IT"}
+          title={"Graphics and IT"} 
           shortDesc={
-            "The Dept. of IT is a core part of NDMC. It processes and creates all digital information of the club"
+            "The Dept. of Graphics and IT is a core part of NDMC. It processes all digital information of the club and brings our ideas, activities, and brand to life"
           }
         >
           <div style={{ padding: "15px 10px" }}>
             <Typography sx={{ mb: 3 }}>
-              The Dept. of IT is a core part of NDMC. It processes and creates
-              all digital information of the club.
+            The Dept. of Graphics and IT is a core part of NDMC. It processes all digital information of the club and brings our ideas, activities, and brand to life. The departments consists of two teams:
             </Typography>
 
+            <Typography variant="h6">IT Team:</Typography>
             <div style={{ margin: "10px 0px" }}>
               <StyledListItem>
-                The Dept. of IT is in charge of crafting and maintaining a
-                dynamic website that is easy to navigate and engaging for the
-                users.
+              The IT team is in charge of crafting and maintaining a dynamic website that is easy to navigate and engaging for the users. During various online contests, it manages the contest portals to ensure a smooth and unquestioned contest experience.
               </StyledListItem>
-
               <StyledListItem>
-                The Dept. of IT is responsible for entry, security,
-                accessibility, and efficiency of its members and event
-                participants' data.
+              The team is responsible for entry, security, accessibility, and efficiency of its members and event participants' data.
               </StyledListItem>
-
               <StyledListItem>
-                The Dept. of IT automates, sorts, and stores all type of files
-                and application regarding NDMC.
+              The IT team automates, sorts, and stores all type of files and application regarding NDMC.
               </StyledListItem>
             </div>
 
-            <Typography sx={{ mt: 3 }}>
-              In every aspect of our digital domain, our IT Dept. strives for
-              excellence, where technological innovation and mathematical
-              curiosity collide.
-            </Typography>
+            <Typography variant="h6">Graphics Team:</Typography>
+            <div style={{ margin: "10px 0px" }}>
+              <StyledListItem>
+              The Graphics team collaborates to transform ideas into visually appealing
+              stories for our weekly articles posted on NDMC’s official Facebook
+              page. This
+              team of talented designers, illustrators, and visual storytellers
+              works together to create captivating content.
+              </StyledListItem>
+              <StyledListItem>
+              The team takes the lead in brainstorming, editing, and
+              designing the two editorials of NDMC, “The Function” and “The
+              Plane”. Their creativity drives the ideas for our annual wall
+              magazine and annual magazine.
+              </StyledListItem>
+              <StyledListItem>
+              Every poster, banner, crest, and certificate for our workshops,
+              sessions, and events is a work of craft by the graphics
+              team. They play a crucial role in promoting events and
+              making them visually appealing.
+              </StyledListItem>
+              <StyledListItem>
+              The Graphics Department is more than just a department; it’s a
+              vibrant hub where creativity meets innovation, producing impactful
+              visuals that help our club run smoothly.
+              </StyledListItem>
+            </div>
+            
           </div>
         </StyledCard>
       </StyledGrid>
