@@ -189,7 +189,7 @@ const Footer = () => {
               </a>
               <a
                 style={{ textDecoration: "none" }}
-                href="https://www.youtube.com/@notredamemathclub"
+                href="https://www.youtube.com/@ndmcbd"
                 target="_blank"
               >
                 <Icon icon={"youtube"} icontype={"fill"} />

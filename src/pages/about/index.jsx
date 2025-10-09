@@ -25,7 +25,8 @@ const About = () => {
   usePageTitle("About");
   return (
     <div>
-      {/* <Helmet>
+      {/* 
+      <Helmet>
         <meta
           name="description"
           content="Inspired by Galileo Galilei’s words, “Mathematics is the language with which God has written the universe,” the Notre Dame Math Club (NDMC) was established on Pi-Day, 14th March 2017, by Md. Rezaul Karim, a Mathematics lecturer at Notre Dame College, Dhaka. Our mission is to foster a dynamic community for students who are eager to delve into the captivating world of mathematics"
@@ -55,8 +56,7 @@ const About = () => {
         <meta name="twitter:title" content="About-Notre Dame Math Club" />
         <meta
           name="twitter:description"
-          content="Inspired by Galileo Galilei’s words, “Mathematics is the language with which God has written the universe,” the Notre Dame Math Club (NDMC) was established on Pi-Day, 14th March 2017, by Md. Rezaul Karim, a Mathematics lecturer at Notre Dame College, Dhaka. Our mission is to foster a dynamic community for students who are eager to delve into the captivating world of mathematics"
-        />
+          content="Inspired by Galileo Galilei’s words, “Mathematics is the language with which God has written the universe,” the Notre Dame Math Club (NDMC) was established on Pi-Day, 14th March 2017, by Md. Rezaul Karim, a Mathematics lecturer at Notre Dame College, Dhaka. Our mission is to foster a dynamic community for students who are
         <meta
           name="twitter:image"
           content="https://res.cloudinary.com/ndmc/image/upload/v1703312758/07d21e5a109bba456eb37179f53e5d7a.png"
@@ -64,13 +64,13 @@ const About = () => {
       </Helmet> */}
       <AboutStyledBanner>
         <TitleWrapper>
-          <Subtitle>Introducing </Subtitle>
+          <Subtitle> </Subtitle>
           <ResponsiveText
             design={{ size: "xxl", weight: "xBold" }}
             id="title"
             style={{ textTransform: "uppercase", lineHeight: "4.5rem" }}
           >
-            Notre Dame Math Club
+            
           </ResponsiveText>
         </TitleWrapper>
       </AboutStyledBanner>
@@ -78,13 +78,12 @@ const About = () => {
         <div>
           <Text design={{ size: "lg", weight: "light" }}>Who we are...?</Text>
           <Description align="left">
-            "Inspired by Galileo Galilei’s words, “Mathematics is the language
+            Inspired by Galileo Galilei’s words, “Mathematics is the language
             with which God has written the universe,” the Notre Dame Math Club
             (NDMC) was established on Pi-Day, 14th March 2017, by Md. Rezaul
             Karim, a Mathematics lecturer at Notre Dame College, Dhaka. Our
             mission is to foster a dynamic community for students who are eager
-            to delve into the captivating world of mathematics. With around 1200
-            current members and 4000 alumni, NDMC has grown to become one of the
+            to delve into the captivating world of mathematics. With around 10000 total members and alumni, NDMC has grown to become one of the
             leading college-level mathematics clubs in Bangladesh.
           </Description>
           <Description align="left">
@@ -100,8 +99,8 @@ const About = () => {
             events throughout the year.
           </Description>
           <Description align="left">
-            NDMC boasts three official Olympiad teams: ‘Team π’, ‘Team e’, and
-            ‘Team φ’, as well as a Rubik’s cube team named ‘NDMC Pentagram’.
+            NDMC boasts four official Olympiad teams: ‘Team π’, ‘Team e’,
+            ‘Team φ’, and ‘Team Ω’ as well as a Rubik’s cube team named ‘NDMC Pentagram’.
             These teams participate in local, national, and international
             competitions, including various competitions such as IMO, IGO, APMO,
             CERN Competitions, regional & national level Olympiads, challenges,
@@ -116,14 +115,12 @@ const About = () => {
             nurturing students’ writing skills. We have three regular
             publications: ‘The Function’, our annual magazine featuring
             articles, riddles, and theorems from teachers and students; ‘The
-            Plane’, a quarterly wall magazine displayed on the second floor of
+            Plane’, an annual wall magazine displayed on the second floor of
             the Ganguly Building; and ‘The Number’, a unique, handwritten
-            magazine created by our members. Three editions of ‘The Number’ have
+            magazine created by our members. Six editions of ‘The Number’ have
             been published so far and are available in the college library.
             These publications offer our members a platform to share their
-            insights on math-related topics. We also publish numerous #mathfacts
-            and #mathfaces scholarly articles online, contributed by our
-            students.
+            insights on math-related topics.
           </Description>
           <Description align="left">
             With a range of activities and numerous achievements, the Notre Dame
@@ -138,16 +135,16 @@ const About = () => {
           <div>
             <CenterGrid container columns={{ xs: 12, md: 12 }} gap={"1rem"}>
               <Grid item xs={5} md={2.5}>
-                <AboutInfo title={"4/YR"} subtitle={"Festivals"} />
+                <AboutInfo title={"7/YR"} subtitle={"Festivals"} />
               </Grid>
               <Grid item xs={5} md={2.5}>
-                <AboutInfo title={"100+"} subtitle={"Workshops"} />
+                <AboutInfo title={"200+"} subtitle={"Workshops"} />
               </Grid>
               <Grid item xs={5} md={2.5}>
                 <AboutInfo title={"3/YR"} subtitle={"Publications"} />
               </Grid>
               <Grid item xs={5} md={2.5}>
-                <AboutInfo title={"3K+"} subtitle={"Members"} />
+                <AboutInfo title={"10K+"} subtitle={"Members and Alumni"} />
               </Grid>
 
               <Splash position={{ right: "0", bottom: 0 }} size=".4" />

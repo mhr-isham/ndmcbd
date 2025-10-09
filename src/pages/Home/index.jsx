@@ -204,43 +204,25 @@ const Home = () => {
                       container
                       columns={{ xs: 12, md: 12 }}
                       gap={"1rem"}
+                      sx={{ flexWrap: "wrap" }} // Allow wrapping if needed
                     >
-                      <Grid
-                        item
-                        xs={5}
-                        md={2.5}
-                        data-aos="fade-up"
-                        data-aos-duration="2000"
-                      >
-                        <AboutInfo title={"4/YR"} subtitle={"Festivals"} />
-                      </Grid>
-                      <Grid
-                        item
-                        xs={5}
-                        md={2.5}
-                        data-aos="fade-up"
-                        data-aos-duration="2000"
-                      >
-                        <AboutInfo title={"100+"} subtitle={"Workshops"} />
-                      </Grid>
-                      <Grid
-                        item
-                        xs={5}
-                        md={2.5}
-                        data-aos="fade-up"
-                        data-aos-duration="2000"
-                      >
-                        <AboutInfo title={"3/YR"} subtitle={"Publications"} />
-                      </Grid>
-                      <Grid
-                        item
-                        xs={5}
-                        md={2.5}
-                        data-aos="fade-up"
-                        data-aos-duration="2000"
-                      >
-                        <AboutInfo title={"3K+"} subtitle={"Members"} />
-                      </Grid>
+                      {[
+                        { title: "7/YR", subtitle: "Festivals" },
+                        { title: "200+", subtitle: "Workshops" },
+                        { title: "3/YR", subtitle: "Publications" },
+                        { title: "10K+", subtitle: "Members and Alumnus" },
+                      ].map((info, index) => (
+                        <Grid
+                          key={index}
+                          item
+                          xs={12}
+                          md={2.4} // 5 items × 2.4 = 12 columns
+                          data-aos="fade-up"
+                          data-aos-duration="2000"
+                        >
+                          <AboutInfo title={info.title} subtitle={info.subtitle} />
+                        </Grid>
+                      ))}
 
                       <Splash position={{ right: "0", bottom: 0 }} size=".4" />
                       <Splash position={{ left: "0", tip: 0 }} size=".4" />
@@ -393,7 +375,7 @@ const Home = () => {
                       img={Gs}
                     >
                       Notre Dame Math Club(NDMC) is a wonderful community for
-                      math enthusiasts. The club, led by the passionate Foysal
+                      math enthusiasts. The club, led by the passionate Reza
                       Sir, hosts some of the largest national festivals and
                       intra-olympiads, providing opportunities to meet
                       like-minded individuals. If you love math, this club could

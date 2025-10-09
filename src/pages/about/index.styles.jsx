@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import { BluredBackground } from "../../components/styles/StylePresets";
-import bgImg from "../../assets/aboutIntro.webp";
+import bgImg from "../../assets/aboutintro.png";
 import { Grid } from "@mui/material";
 
 export const AboutStyledBanner = styled.div`

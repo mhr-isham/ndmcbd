@@ -26,3 +26,4 @@ export const EcBox = styled.div`
     ${BluredBackground}
   }
 `;
+

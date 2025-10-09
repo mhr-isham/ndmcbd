@@ -44,36 +44,39 @@ const SectorsSection = () => {
           icontype={"line"}
           title={"Administration"}
           shortDesc={
-            "The Department of Administration is “the brain” of NDMC. It handles the overall club operations and leads all club activity"
+            "The Department of Administration is 'the brain' of NDMC. It handles the overall club operations and leads all club activity"
           }
         >
           <div style={{ padding: "15px 10px" }}>
             <Typography sx={{ mb: 3 }}>
-              The Department of Administration is “the brain” of NDMC. It
+              The Department of Administration is 'the brain' of NDMC. It
               handles the overall club operations and leads all club activity.
             </Typography>
 
             <div style={{ margin: "10px 0px" }}>
               <StyledListItem>
-                The Department of Administration is assigned to plan the
+              The Department of Administration is exclusively operated by the batch in the current executive committee.
+              </StyledListItem>
+              <StyledListItem>
+                The Department is assigned to plan the
                 structure of every activity of the club and make the ultimate
                 decisions.
               </StyledListItem>
 
               <StyledListItem>
-                The Dept. of Administration monitors and indirectly controls all
+                The Department monitors and indirectly controls all
                 the activities of the club.
               </StyledListItem>
 
               <StyledListItem>
-                The Dept. of Administration works as a bridge to establish
+                This Department of Administration works as a bridge to establish
                 connections among the other departments of NDMC and distribute
                 tasks among all the other departments.
               </StyledListItem>
             </div>
 
             <Typography sx={{ mt: 3 }}>
-              This department assists and co-operates with the smooth
+              This Department assists and co-operates with the smooth
               functioning of the whole club. The members of this department bear
               the most responsibilities. It is the true architect of the
               framework that powers the club’s triumph.
@@ -123,21 +126,23 @@ const SectorsSection = () => {
               <StyledListItem>
                 They organize challenging questions for the Intra-Math
                 Olympiad and Math Fest, testing not just knowledge, but critical
-                thinking and problem-solving skills. Their sessions are
+                thinking and problem-solving skills.
+              </StyledListItem>
+              <StyledListItem>
+              Their sessions are
                 explorations into the depths of mathematics beyond the regular
                 curriculum.
               </StyledListItem>
-            </div>
-
-            <Typography sx={{ mt: 3, mb: 1 }}>
+              <StyledListItem>
               They brainstorm unique segment ideas, ensuring diversity in club
               activities. They also ensure fairness in competitions by
               meticulously checking answer scripts.
-            </Typography>
+              </StyledListItem>
+            </div>
             <Typography sx={{ mt: 2, mb: 1 }}>
               Assembling Academic Teams: Recognizing potential in each member,
-              they assemble elite Olympiad teams - Team e, Team pi, and Team phi
-              - that represent the club at various competitions.
+              they assemble elite Olympiad teams - ‘Team π’, ‘Team e’, ‘Team φ’, and ‘Team Ω’
+              - that represent the club at various national and international competitions including IMO, IPhO, APMO, APhO, IChO, ICO, IAIO, IOI, IRO etc.
             </Typography>
 
             <Typography sx={{ mt: 2, mb: 1 }}>
@@ -167,7 +172,7 @@ const SectorsSection = () => {
               are mainly separated into online and offline sectors.
             </Typography>
 
-            <Typography variant="h6">Offline Sectors:</Typography>
+            <Typography variant="h6">Publications:</Typography>
             <div style={{ margin: "10px 0px" }}>
               <StyledListItem>
                 <b>The Plane: </b>'The Plane' is the wall magazine of NDMC. It
@@ -182,7 +187,7 @@ const SectorsSection = () => {
                 teachers, and honorable personalities.
               </StyledListItem>
               <StyledListItem>
-                <b>The Number: </b>'The Number' is a biannual magazine fully
+                <b>The Number: </b>'The Number' is a annual magazine fully
                 written in hand. It illustrates the articles of the students
                 where they share their mathematical knowledge. It helps bring
                 out their latent talent by portraying their creativity.
@@ -211,12 +216,12 @@ const SectorsSection = () => {
           icontype={"line"}
           title={"Public Relation"}
           shortDesc={
-            "The Public Relations Dept. of the NDMC is a dynamic and dedicated team of negotiators. They work tirelessly to foster collaborations, secure sponsorships, and enhance our presence in the mathematical arena."
+            "The Public Relations Department of the NDMC is a dynamic and dedicated team of negotiators. They work tirelessly to foster collaborations, secure sponsorships, and enhance our presence in the mathematical arena."
           }
         >
           <div style={{ padding: "15px 10px" }}>
             <Typography sx={{ mb: 3 }}>
-              The Public Relations Dept. of the NDMC is a dynamic and dedicated
+              The Public Relations Department of the NDMC is a dynamic and dedicated
               team of negotiators. They work tirelessly to foster
               collaborations, secure sponsorships, and enhance our presence in
               the mathematical arena.
@@ -224,12 +229,12 @@ const SectorsSection = () => {
 
             <div style={{ margin: "10px 0px" }}>
               <StyledListItem>
-                The Dept. of Public Relations is commited to procure funds for
+                The Department of Public Relations is commited to procure funds for
                 our events and festivals through sponsorships.
               </StyledListItem>
 
               <StyledListItem>
-                The Dept. of Public Relations is dictates partnership goals and
+                The Department dictates partnership goals and
                 requirements for our festivals.
               </StyledListItem>
             </div>
@@ -250,36 +255,36 @@ const SectorsSection = () => {
           icontype={"line"}
           title={"Outreach"}
           shortDesc={
-            "The Dept. of Outreach hosts some of the most hardworking members of NDMC. The carry the club on their shoulders"
+            "The Department of Outreach hosts some of the most hardworking members of NDMC. The carry the club on their shoulders"
           }
         >
           <div style={{ padding: "15px 10px" }}>
             <Typography sx={{ mb: 3 }}>
-              The Dept. of Outreach hosts some of the most hardworking members
+              The Department of Outreach hosts some of the most hardworking members
               of NDMC. The carry the club on their shoulders.
             </Typography>
 
             <div style={{ margin: "10px 0px" }}>
               <StyledListItem>
-                The Outreach Dept. maintains connection with its sponsors, and
+                The Outreach Department maintains connection with its sponsors, and
                 different educational institutions.
               </StyledListItem>
 
               <StyledListItem>
-                The Outreach Dept. commutes and brings all the publication and
+                The Outreach Department commutes and brings all the publication and
                 promotional materials.
               </StyledListItem>
 
               <StyledListItem>
-                The Outreach Dept. volunteers in all our events and festivals,
+                The Outreach Department volunteers in all our events and festivals,
                 sets registration booths across nationwide institutions.
               </StyledListItem>
             </div>
 
             <Typography sx={{ mt: 3 }}>
-              Of all the Dept. of NDMC this Dept. requires the least amount
+              Of all the Department of NDMC this Department requires the least amount
               of experience. Most of the executives usually begin their journey
-              from this Dept.
+              from this Department
             </Typography>
           </div>
         </StyledCard>
@@ -295,12 +300,12 @@ const SectorsSection = () => {
           icontype={"line"}
           title={"Graphics and IT"} 
           shortDesc={
-            "The Dept. of Graphics and IT is a core part of NDMC. It processes all digital information of the club and brings our ideas, activities, and brand to life"
+            "The Department of Graphics and IT is a core part of NDMC. It processes all digital information of the club and brings our ideas, activities, and brand to life"
           }
         >
           <div style={{ padding: "15px 10px" }}>
             <Typography sx={{ mb: 3 }}>
-            The Dept. of Graphics and IT is a core part of NDMC. It processes all digital information of the club and brings our ideas, activities, and brand to life. The departments consists of two teams:
+            The Department of Graphics and IT is a core part of NDMC. It processes all digital information of the club and brings our ideas, activities, and brand to life. The departments consists of two teams:
             </Typography>
 
             <Typography variant="h6">IT Team:</Typography>
@@ -327,8 +332,8 @@ const SectorsSection = () => {
               </StyledListItem>
               <StyledListItem>
               The team takes the lead in brainstorming, editing, and
-              designing the two editorials of NDMC, “The Function” and “The
-              Plane”. Their creativity drives the ideas for our annual wall
+              designing the two editorials of NDMC, 'The Function' and 'The
+              Plane'. Their creativity drives the ideas for our annual wall
               magazine and annual magazine.
               </StyledListItem>
               <StyledListItem>
@@ -372,13 +377,7 @@ const SectorsSection = () => {
             <Typography sx={{ mt: 2, mb: 1 }}>
               NDMC arranges weekly sessions on different topics in mathematics.
               During these sessions, our photographers treasure the fervour of
-              the students about mathematics by capturing exquisite moments.
-            </Typography>
-            <Typography sx={{ mt: 2, mb: 1 }}>
-              “The Freshers Reception," which is conducted every year to welcome
-              the new club members eminently, is also an annual ceremony of our
-              club. Our photography team shows their significant attempts to
-              capture the beautiful memories of this event.
+              the students about mathematics by capturing exquisite moments. 
             </Typography>
 
             <Typography sx={{ mt: 2, mb: 1 }}>
@@ -388,7 +387,7 @@ const SectorsSection = () => {
               various mathematical topics to make them more interesting. They
               try to explain a difficult topic in a very short amount of time by
               making a fascinating video of that topic by showing things
-              practically.
+              practically. The department's members also assist by capturing aerial photographs and videos using drones.
             </Typography>
           </div>
         </StyledCard>
