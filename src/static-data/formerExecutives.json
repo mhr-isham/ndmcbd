@@ -1,6 +1,223 @@
 [
+
   {
     "session": 2023,
+    "executives": [
+        {
+          "post": "General Secretary",
+          "department": "",
+          "name": "Md. Hasib Khan",
+          "facebook": "https://www.facebook.com/hasib.unique",
+          "imgUrl": "https://scontent.fdac155-1.fna.fbcdn.net/v/t39.30808-6/485156544_1087222093450296_7003037952627340490_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=bJRfDJlvTc4Q7kNvwEDa2hr&_nc_oc=Adks4SW-Zrfm94E_pww0Z_KTVhxQuWNlc0BivOqa4y6pws504aCZfTtSadKJyhviCnM&_nc_zt=23&_nc_ht=scontent.fdac155-1.fna&_nc_gid=wguWaJeA3hWPwQbEg7T0qA&oh=00_Aff9G9n4f5P-1uFbcGpJ4U5uhkgBbk1Lg2rNHd-qFOIdnA&oe=68EDEBCA"
+        },
+        {
+          "post": "Assistant General Secretary",
+          "department": "",
+          "name": "Dhebakar Barua",
+          "facebook": "https://www.facebook.com/dhebakar.barua.33",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698043939/DSC_0877_-_Arpon_Roy_1_zpuokf.jpg"
+        },
+        {
+          "post": "President",
+          "department": "Administration",
+          "name": "Kazi Farabi Bin Akhter",
+          "facebook": "https://www.facebook.com/quazifarabi.binakhter",
+          "imgUrl": "https://scontent.fdac155-1.fna.fbcdn.net/v/t39.30808-6/485150346_1087222103450295_4879925393584408476_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=a00o9Io2A8AQ7kNvwH4yDao&_nc_oc=Adm6oHqaSuS8r9qdeYvrYCwbNFEFeiVf8Vb9uJPJ8jRsNqcJSsvdVLJI_rHp0w83TJg&_nc_zt=23&_nc_ht=scontent.fdac155-1.fna&_nc_gid=eL0HjtcXbVkwldw4YtK7xA&oh=00_AfcHxws8TPkxLQYAbSn9T6ubMXlXUG8B2SN1NDVkxMeN7Q&oe=68EDDCFC"
+        },
+        {
+          "post": "President",
+          "department": "Olympiad",
+          "name": "Swapnil Mandal",
+          "facebook": "https://www.facebook.com/euclid.372",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047019/Muhtadi_Azwaad_Ali_-_Muhtadi_Azwaad_Ali_aadjy0.jpg"
+        },
+        {
+          "post": "President",
+          "department": "IT & Graphics",
+          "name": "Abu Ubida Wadi",
+          "facebook": "https://www.facebook.com/abuubida.wadi",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047027/B612_20230422_224423_997-01_-_Irfan_Sadiq_kuvitr.jpg"
+        },
+        {
+          "post": "President",
+          "department": "Public Relation",
+          "name": "Labib Daiyan",
+          "facebook": "https://www.facebook.com/muhammadlabib.daiyan.bhuiyan18",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047035/DSC_0848_-_Nahian_Ash-hab_lfuy9n.jpg"
+        },
+        {
+          "post": "President",
+          "department": "Session & Workshop",
+          "name": "Md. Rafin Saleh",
+          "facebook": "",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047015/Final_for_ndmc_-_Soumya_M_1_h1tfj9.jpg"
+        },
+        {
+          "post": "President",
+          "department": "Publication",
+          "name": "Safwan Uddin",
+          "facebook": "",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047021/IMG_20230712_203445_-_tasnimul_009_q8hpdr.jpg"
+        },
+        {
+          "post": "President",
+          "department": "Outreach & Fieldwork",
+          "name": "Shams E Sheefat",
+          "facebook": "https://www.facebook.com/ibneAbdullah04",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047028/Picsart_23-07-12_19-26-55-268_2_-_Ibne_Abdullah_fd3sou.jpg"
+        },
+        {
+          "post": "Vice President",
+          "department": "Administration",
+          "name": "Md. Raihan-ul-Alam",
+          "facebook": "https://www.facebook.com/mdmushfique.hussain",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047021/photo_2023-07-13_17-47-09_-_Mushfique_Hussain_iblxvv.jpg"
+        },
+        {
+          "post": "Vice President",
+          "department": "Administration",
+          "name": "Arafat Bin Boiduryo",
+          "facebook": "https://www.facebook.com/fahim.math",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047040/DSC_0857_-_Fahim_Muhtamim_x5ijnh.jpg"
+        },
+        {
+          "post": "Vice President",
+          "department": "Olympiad",
+          "name": "Sougato Ghosh",
+          "facebook": "https://www.facebook.com/mehrab3226",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047038/DSC_0846_-_mehrab_hossain_wvh7lv.jpg"
+        },
+        {
+          "post": "Vice President",
+          "department": "Olympiad",
+          "name": "Showmajit Saha",
+          "facebook": "https://www.facebook.com/iKhorul.1257",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047040/DSC_0888-Recovered_-_Iftakharul_Islam_s1a7n0.jpg"
+        },
+        {
+          "post": "Vice President",
+          "department": "Session & Workshop",
+          "name": "Mahir Faisal",
+          "facebook": "https://www.facebook.com/profile.php?id=100081569208363",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047018/IMG-20230712-WA0000_2_-_Mong_Hai_Thoway_Chak_kqxdtk.jpg"
+        },
+        {
+          "post": "Vice President",
+          "department": "Publication",
+          "name": "Darshan Paul",
+          "facebook": "https://www.facebook.com/bokaif",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047034/bokaif_-_Badruddoza_Kaif_oas2bc.png"
+        },
+        {
+          "post": "Vice President",
+          "department": "Publication",
+          "name": "Rudra Anirban",
+          "facebook": "https://www.facebook.com/rudra.a.saha",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047018/IMG-20230713-WA0002_-_Arnob_Pal_woj6m3.jpg"
+        },
+        {
+          "post": "Vice President",
+          "department": "Outreach & Fieldwork",
+          "name": "Abdullah Ifra",
+          "facebook": "",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047019/IMG_20211207_141841_-_Walid_Bin_Reza_pdrgxg.jpg"
+        },
+        {
+          "post": "Vice President",
+          "department": "Public Relation",
+          "name": "Nafis Fuad Patowary",
+          "facebook": "https://www.facebook.com/tahmid.wasi.77",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047025/20220426_141518_-_Mahbuba_Akter_hzgq3w.jpg"
+        },
+        {
+          "post": "Vice President",
+          "department": "Outreach & Fieldwork",
+          "name": "Rahat Al Tasin",
+          "facebook": "https://www.facebook.com/swapnil.tasin.7",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047023/Screenshot_20230714_171056_Photos_-_A_S_M_Soyaeb_Reza_upmcjm.jpg"
+        },
+        {
+          "post": "Vice President",
+          "department": "Public Relation",
+          "name": "Ahnad Saddid",
+          "facebook": "https://www.facebook.com/rezoan.kabbo.7",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047028/0CFB4312-9ED6-4625-893E-B94EA13C6EFE_-_Trex_Gaming_s42syt.jpg"
+        },
+        {
+          "post": "Vice President",
+          "department": "Public Relation",
+          "name": "Ishmam Sabbab",
+          "facebook": "https://www.facebook.com/profile.php?id=100081269940543",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047022/Pic_for_NDMC_post_-_Lingkon_Roy_1_fodtao.jpg"
+        },
+        {
+          "post": "Vice President",
+          "department": "IT & Graphics",
+          "name": "Md. Arafat Hossain",
+          "facebook": "https://www.facebook.com/raad.sharar.7",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047035/Untitled25_20230714213332-01-01_-_Raad_Sharar_gquzvs.jpg"
+        },
+        {
+          "post": "Vice President",
+          "department": "IT & Graphics",
+          "name": "Taha Bhuiyan",
+          "facebook": "https://www.facebook.com/Tahabhuiyan",
+          "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_60/v1698047023/photo_2023-07-12_20-43-16_-_Mahmudun_Nobi_afscr4.jpg"
+        },
+        {
+          "post": "Secretary",
+          "department": "Administration",
+          "name": "Shah Ahmed Jubber",
+          "facebook": "",
+          "imgUrl": ""
+        },
+        {
+          "post": "Secretary",
+          "department": "Olympiad",
+          "name": "Mahim Sadi",
+          "facebook": "",
+          "imgUrl": ""
+        },
+        {
+          "post": "Secretary",
+          "department": "Olympiad",
+          "name": "Md. Naiful Haque",
+          "facebook": "",
+          "imgUrl": ""
+        },
+        {
+          "post": "Secretary",
+          "department": "Session & Workshop",
+          "name": "Nafis Al Zahid",
+          "facebook": "",
+          "imgUrl": ""
+        },
+        {
+          "post": "Secretary",
+          "department": "Publication",
+          "name": "Ahnaf Al",
+          "facebook": "",
+          "imgUrl": ""
+        },
+        {
+          "post": "Secretary",
+          "department": "Public Relation",
+          "name": "Rubaiyat Hasan",
+          "facebook": "",
+          "imgUrl": ""
+        },
+        {
+          "post": "Secretary",
+          "department": "IT & Graphics",
+          "name": "Ramin Tasabbir",
+          "facebook": "",
+          "imgUrl": ""
+        }
+      ]
+  },
+
+  {
+    "session": 2022,
     "executives": [
       {
         "post": "General Secretary",
