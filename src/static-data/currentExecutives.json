@@ -8,6 +8,13 @@
       "facebook": "https://www.facebook.com/shahriar.sabit.sarthok",
       "imgUrl": "https://scontent.fdac155-1.fna.fbcdn.net/v/t39.30808-6/490385521_1105859378253234_8671575799514250294_n.jpg"
     },
+    {
+      "post": "Assistant General Secretary",
+      "department": "",
+      "name": "",
+      "facebook": "",
+      "imgUrl": ""
+    },
 
     {
       "post": "President",
@@ -46,6 +53,14 @@
     },
     {
       "post": "President",
+      "department": "IT",
+      "name": "",
+      "facebook": "",
+      "imgUrl": ""
+    },
+
+    {
+      "post": "Vice President",
       "department": "IT",
       "name": "",
       "facebook": "",
