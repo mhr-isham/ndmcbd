@@ -146,6 +146,7 @@ const Home = () => {
                   invite you to venture into the wilderness of math and bask in
                   its beauty. Are you ready for what it has in store for us?
                 </StyledDescription>
+                {/*
                 <HomeBtnContainer>
                   <MagicButton
                     variant="contained"
@@ -156,6 +157,7 @@ const Home = () => {
                     Events
                   </MagicButton>
                 </HomeBtnContainer>
+      */}
               </Grid>
             </StyledGridContainer>
 
@@ -210,18 +212,25 @@ const Home = () => {
                         { title: "7/YR", subtitle: "Festivals" },
                         { title: "200+", subtitle: "Workshops" },
                         { title: "3/YR", subtitle: "Publications" },
-                        { title: "10K+", subtitle: "Members and Alumnus" },
+                        { title: "10K+", subtitle: "Members & Alumni" },
                       ].map((info, index) => (
                         <Grid
-                          key={index}
-                          item
-                          xs={12}
-                          md={2.4} // 5 items × 2.4 = 12 columns
-                          data-aos="fade-up"
-                          data-aos-duration="2000"
-                        >
-                          <AboutInfo title={info.title} subtitle={info.subtitle} />
-                        </Grid>
+                            key={index}
+                            item
+                            xs={12}
+                            md={2.4}
+                            data-aos="fade-up"
+                            data-aos-duration="2000"
+                            sx={{
+                              textAlign: "center",
+                              display: "flex",
+                              flexDirection: "column",
+                              alignItems: "center",
+                            }}
+                          >
+                            <AboutInfo title={info.title} subtitle={info.subtitle} />
+                          </Grid>
+
                       ))}
 
                       <Splash position={{ right: "0", bottom: 0 }} size=".4" />
@@ -278,6 +287,64 @@ const Home = () => {
             </SectionContainer>
           </Section>
           {/* Sectors section end */}
+
+          {/* ======================= About us Section End ============================== */}
+
+          {/* Sectors section start */}
+          <Section id="sector">
+            <SectionContainer>
+              <SectionInfoContainer>
+                <SectionSubtitle variant="lg">
+                  Explore our Sectors
+                </SectionSubtitle>
+                <SectionTitle> Sectors</SectionTitle>
+              </SectionInfoContainer>
+              <FullWidthBox>
+                {/* <SectorSection
+                  center={"true"}
+                  container
+                  layout={{ default: "column", sm: "row" }}
+                  columns={{ lg: 12, xs: 12, md: 12, sm: 12 }}
+                >
+                  {sectors.map(({ icon, description, title }, index) => (
+                    <StyledGrid
+                      key={index}
+                      item
+                      xs={12}
+                      sm={4.5}
+                      md={3.5}
+                      lg={2.5}
+                      data-aos="zoom-out"
+                    >
+                      <StyledCard
+                        icon={icon}
+                        icontype={"line"}
+                        title={title}
+                        shortDesc={description}
+                      >
+                        <pre>{description}</pre>
+                      </StyledCard>
+                    </StyledGrid>
+                  ))}
+                </SectorSection> */}
+                <SectorsSection />
+              </FullWidthBox>
+            </SectionContainer>
+          </Section>
+          {/* Sectors section end */}
+          {/* Be a Member Button Section */}
+          <div style={{ textAlign: "center", padding: "30px 0" }}>
+            <MagicButton
+              variant="contained"
+              size="large"
+              component={Link}
+              to="/membership"
+              style={{ fontSize: "1.2rem", padding: "15px 40px" }}
+            >
+              Be A Member & Join Us
+            </MagicButton>
+          </div>
+          {/* Be a Member Button Section End */}
 
           {/* Events Section start */}
           <Section id="events">
@@ -374,7 +441,7 @@ const Home = () => {
                       designation={"General Secretary"}
                       img={Gs}
                     >
-                      Notre Dame Math Club(NDMC) is a wonderful community for
+                      Notre Dame Math Club (NDMC) is a wonderful community for
                       math enthusiasts. The club, led by the passionate Reza
                       Sir, hosts some of the largest national festivals and
                       intra-olympiads, providing opportunities to meet

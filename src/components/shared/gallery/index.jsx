@@ -5,6 +5,7 @@ import ImageListItem from "@mui/material/ImageListItem";
 import StyledDialog from "../../ui/dialog";
 import getGallery from "../../../api/getGallery";
 import { useEffect, useState } from "react";
+import galleryImages from "../../../static-data/gallery-images.json";
 
 export const MasonryGallery = () => {
   const [open, setOpen] = React.useState(false);
@@ -30,13 +31,22 @@ export const MasonryGallery = () => {
 
     return () => window.removeEventListener("scroll", onScroll);
   }, [count]);
+  
   const getImages = async () => {
-    const images = await getGallery();
-    setImage(images.data.data);
+    try {
+      // Try to fetch from API first
+      const images = await getGallery();
+      setImage(images.data.data);
+    } catch (error) {
+      // Fallback to static images if API fails
+      setImage(galleryImages);
+    }
   };
+  
   useEffect(() => {
     getImages();
   }, []);
+  
   return (
     <div style={{ paddingBottom: "40px" }}>
       <ImageList variant="masonry" cols={3} gap={8}>

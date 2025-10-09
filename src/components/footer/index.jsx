@@ -52,15 +52,16 @@ const Footer = () => {
                 </StyledFooterLink>
               </li>
               <li>
+                <StyledFooterLink component={RouterLink} to={"/membership"}>
+                  Membership
+                </StyledFooterLink>
+              </li>
+              <li>
                 <StyledFooterLink component={RouterLink} to={"/executives"}>
                   Executives
                 </StyledFooterLink>
               </li>
-              <li>
-                <StyledFooterLink component={RouterLink} to={"/about"}>
-                  Membership
-                </StyledFooterLink>
-              </li>
+
             </ul>
           </div>
 
@@ -81,14 +82,6 @@ const Footer = () => {
                 </StyledFooterLink>
               </li>
               <li>
-                <StyledFooterLink
-                  href="https://app.ndmcbd.org/"
-                  target="_blank"
-                >
-                  Competitions
-                </StyledFooterLink>
-              </li>
-              <li>
                 <StyledFooterLink component={RouterLink} to={"/gallery"}>
                   Explore
                 </StyledFooterLink>
@@ -99,28 +92,12 @@ const Footer = () => {
           <div className="footer-col">
             <h4>Resources</h4>
             <ul className="links">
-              <li>
+            <li>
                 <StyledFooterLink
-                  href="https://matholympiad.org.bd/resources/important-links?fbclid=IwAR1T_xTsAcFQA5q6mrhAWPMuzcvtwPDlQlomlttZlka_MBKIHN9kUk4ofPM"
+                  href="https://drive.google.com/drive/folders/1PK0Nb_TZmCw4HP4aSDhXwsUFkfyM0RQb"
                   target="_blank"
                 >
-                  Helpful Links
-                </StyledFooterLink>
-              </li>
-              <li>
-                <StyledFooterLink
-                  href="https://matholympiad.org.bd/resources/math-related-books-list?fbclid=IwAR29DFFEtUbBD2gxOHxRz5wqWBf3HQ0AfpvdMGV8xXyPfkFmG9eK4EITHVA"
-                  target="_blank"
-                >
-                  Book List
-                </StyledFooterLink>
-              </li>
-              <li>
-                <StyledFooterLink
-                  href="https://drive.google.com/drive/folders/1u4wrZoFitXTyvjl-wAs9Kp0QMsWZmuQn?fbclid=IwAR1b9Ehw1QmNtouIoRTRjQrRRp4vNDlcsYvrWbFjZ6AJZXmWCMfzOgVL2l0"
-                  target="_blank"
-                >
-                  Math Resources
+                  Articles
                 </StyledFooterLink>
               </li>
               <li>
@@ -131,10 +108,44 @@ const Footer = () => {
                   Problem Sets
                 </StyledFooterLink>
               </li>
+
+              <li>
+                <StyledFooterLink
+                  href="https://matholympiad.org.bd/math-related-book-list"
+                  target="_blank"
+                >
+                  Math Olympiad Book List
+                </StyledFooterLink>
+              </li>
+              <li>
+                <StyledFooterLink
+                  href="https://drive.google.com/drive/folders/1u4wrZoFitXTyvjl-wAs9Kp0QMsWZmuQn?fbclid=IwAR1b9Ehw1QmNtouIoRTRjQrRRp4vNDlcsYvrWbFjZ6AJZXmWCMfzOgVL2l0"
+                  target="_blank"
+                >
+                  Math Resources Collection
+                </StyledFooterLink>
+              </li>
+              <li>
+                <StyledFooterLink
+                  href="https://artofproblemsolving.com/community/"
+                  target="_blank"
+                >
+                  Art of Problem Solving
+                </StyledFooterLink>
+              </li>
+              <li>
+                <StyledFooterLink
+                  href="https://mathworld.wolfram.com/"
+                  target="_blank"
+                >
+                  Wolfram MathWorld
+                </StyledFooterLink>
+              </li>
             </ul>
           </div>
-
+          
           <div className="footer-col">
+           
             <h4>Subscribe to our Notifications</h4>
             <p>
               Don’t miss out on any updates from the Notre Dame Math Club.
@@ -172,6 +183,7 @@ const Footer = () => {
                 </Grid>
               </Grid>
             </form>
+            
             <div className="icons">
               <a
                 style={{ textDecoration: "none" }}

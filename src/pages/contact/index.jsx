@@ -86,48 +86,78 @@ const Contact = () => {
       </PageTitleContainer>
       {/* Contact Details */}
       <Grid container justifyContent={"center"} gap={"1rem"}>
-        <Grid item>
-          <ContactBox>
-            <ContactInnerBox>
-              <Text colored={"main"}>
-                <Icon icon={"phone"} icontype={"line"} size={5} />
-              </Text>
-              <Text design={{ size: "md", weight: "xBold" }}>Contact no.</Text>
-              <Text>+8801931- 093092</Text>
-            </ContactInnerBox>
-            {/* <Splash position={{ right: 0, bottom: 0 }} size={0.1} /> */}
-            <Splash position={{ left: 0, top: 0 }} size={0.17} />
-          </ContactBox>
-        </Grid>
-        <Grid item>
-          <ContactBox>
-            <ContactInnerBox>
-              <Text colored={"main"}>
-                <Icon icon={"mail-open"} icontype={"line"} size={5} />
-              </Text>
-              <Text design={{ size: "md", weight: "xBold" }}>Mail</Text>
-              <Text>contact@ndmcbd.org</Text>
-            </ContactInnerBox>
-            <Splash position={{ left: 0, top: 0 }} size={0.17} />
-          </ContactBox>
-        </Grid>
-        <Grid item>
-          <ContactBox>
-            <ContactInnerBox>
-              <Text colored={"main"}>
-                <Icon icon={"map-pin"} icontype={"line"} size={5} />
-              </Text>
-              <Text design={{ size: "md", weight: "xBold" }}>Address</Text>
-              <Text>
-                Notre Dame College,
-                <br /> Motijheel, Dhaka-1000
-              </Text>
-            </ContactInnerBox>
-            <Splash position={{ left: 0, top: 0 }} size={0.17} />
-          </ContactBox>
-        </Grid>
-      </Grid>
-      {/* Contact Form */}
+  <Grid item>
+    <a
+      href="https://wa.me/8801537223569"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ textDecoration: "none", color: "inherit" }}
+    >
+      <ContactBox>
+        <ContactInnerBox>
+          <Text colored={"main"}>
+            <Icon icon={"whatsapp"} icontype={"line"} size={5} />
+          </Text>
+          <Text design={{ size: "md", weight: "xBold" }}>Contact no.</Text>
+          <Text>+8801537-223569</Text>
+        </ContactInnerBox>
+        <Splash position={{ left: 0, top: 0 }} size={0.17} />
+      </ContactBox>
+    </a>
+  </Grid>
+
+  <Grid item>
+    <a
+      href="mailto:contact@ndmcbd.com"
+      style={{ textDecoration: "none", color: "inherit" }}
+    >
+      <ContactBox>
+        <ContactInnerBox>
+          <Text colored={"main"}>
+            <Icon icon={"mail-open"} icontype={"line"} size={5} />
+          </Text>
+          <Text design={{ size: "md", weight: "xBold" }}>Mail</Text>
+          <Text>contact@ndmcbd.com</Text>
+        </ContactInnerBox>
+        <Splash position={{ left: 0, top: 0 }} size={0.17} />
+      </ContactBox>
+    </a>
+  </Grid>
+
+  <Grid item>
+    <a
+      href="https://maps.app.goo.gl/N4N3Rvg5j3EB2ua16"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ textDecoration: "none", color: "inherit" }}
+    >
+      <ContactBox>
+        <ContactInnerBox>
+          <Text colored={"main"}>
+            <Icon icon={"map-pin"} icontype={"line"} size={5} />
+          </Text>
+          <Text design={{ size: "md", weight: "xBold" }}>Address</Text>
+          <Text>
+            Notre Dame College,
+            <br /> Motijheel, Dhaka-1000
+          </Text>
+        </ContactInnerBox>
+        <Splash position={{ left: 0, top: 0 }} size={0.17} />
+      </ContactBox>
+    </a>
+  </Grid>
+</Grid>
+
+<div style={{ marginTop: "2rem", textAlign: "center" }}>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1361331.9125681473!2d89.39337731379415!3d23.706744307984486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b7112329d313%3A0xbf15428d28d897fd!2sNotre%20Dame%20College%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1760013758845!5m2!1sen!2sbd" width="950" height="370" style={{ border: 0, borderRadius: "8px" }}
+    allowFullScreen=""
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+
+      {/* Contact Form 
       <FormContainer style={{ overflow: "hidden", position: "relative" }}>
         <form onSubmit={(e) => handleSubmit(e, submitForm)}>
           <Grid
@@ -190,10 +220,10 @@ const Contact = () => {
               Submit
             </MagicButton>
           </CenterButtonBox>
-        </form>
+        </form> 
         <Splash position={{ left: 0, top: 0 }} size={0.3} />
         <Splash position={{ right: 0, bottom: 0 }} size={0.2} />
-      </FormContainer>
+      </FormContainer> */}
     </Section>
   );
 };

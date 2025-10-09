@@ -42,6 +42,7 @@ const navItems = {
   Events: "/events",
   Gallery: "/gallery",
   Executives: "/executives",
+  Membership: "/membership",
   Contact: "/contact",
   // Contact: "/contact",
 };
@@ -90,13 +91,14 @@ const Header = (props) => {
                   }
                   icon={appMode === "light" ? "sun" : "moon"}
                 />
-
+                {/* CA profile image
                 {caProfileInfo.isCa && (
                   <ProfileImgBox
                     img={caProfileInfo.image}
                     onClick={() => navigate("/dashboard")}
                   />
                 )}
+                */}
                 <HamburgerContainer>
                   <IconButton
                     aria-label="open drawer"
@@ -123,7 +125,7 @@ const Header = (props) => {
                   }
                   icon={appMode === "light" ? "sun" : "moon"}
                 />
-
+                {/* NMF registration button and profile image 
                 <ShiningButton
                   variant="contained"
                   component={RouterLink}
@@ -131,13 +133,16 @@ const Header = (props) => {
                 >
                   Register
                 </ShiningButton>
+                 
                 {caProfileInfo.isCa && (
                   <ProfileImgBox
                     img={caProfileInfo.image}
                     onClick={() => navigate("/dashboard")}
-                  />
-                )}
+                  /> 
+                )}   
+                 */ }
               </NavMenuContainer>
+             
             </StyledToolbar>
           </Container>
         </TopBar>
