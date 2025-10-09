@@ -290,48 +290,6 @@ const Home = () => {
 
           {/* ======================= About us Section End ============================== */}
 
-          {/* Sectors section start */}
-          <Section id="sector">
-            <SectionContainer>
-              <SectionInfoContainer>
-                <SectionSubtitle variant="lg">
-                  Explore our Sectors
-                </SectionSubtitle>
-                <SectionTitle> Sectors</SectionTitle>
-              </SectionInfoContainer>
-              <FullWidthBox>
-                {/* <SectorSection
-                  center={"true"}
-                  container
-                  layout={{ default: "column", sm: "row" }}
-                  columns={{ lg: 12, xs: 12, md: 12, sm: 12 }}
-                >
-                  {sectors.map(({ icon, description, title }, index) => (
-                    <StyledGrid
-                      key={index}
-                      item
-                      xs={12}
-                      sm={4.5}
-                      md={3.5}
-                      lg={2.5}
-                      data-aos="zoom-out"
-                    >
-                      <StyledCard
-                        icon={icon}
-                        icontype={"line"}
-                        title={title}
-                        shortDesc={description}
-                      >
-                        <pre>{description}</pre>
-                      </StyledCard>
-                    </StyledGrid>
-                  ))}
-                </SectorSection> */}
-                <SectorsSection />
-              </FullWidthBox>
-            </SectionContainer>
-          </Section>
-          {/* Sectors section end */}
           {/* Be a Member Button Section */}
           <div style={{ textAlign: "center", padding: "30px 0" }}>
             <MagicButton
