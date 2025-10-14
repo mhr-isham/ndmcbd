@@ -303,7 +303,6 @@ const Home = () => {
             </MagicButton>
           </div>
           {/* Be a Member Button Section End */}
-
           {/* Events Section start */}
           <Section id="events">
             <SectionContainer>
