@@ -34,14 +34,12 @@ export const MasonryGallery = () => {
   
   const getImages = async () => {
     try {
-      // Try to fetch from API first
       const images = await getGallery();
       setImage(images.data.data);
     } catch (error) {
-      // Fallback to static images if API fails
-      setImage(galleryImages);
+      setImage(galleryImages); 
     }
-  };
+  };  
   
   useEffect(() => {
     getImages();
@@ -49,31 +47,38 @@ export const MasonryGallery = () => {
   
   return (
     <div style={{ paddingBottom: "40px" }}>
-      <ImageList variant="masonry" cols={3} gap={8}>
-        {itemData.slice(0, count).map((item, index) => (
-          <ImageListItem key={index}>
-            <img
-              srcSet={`${item}?w=248&fit=crop&auto=format&dpr=2 2x`}
-              src={`${item}?w=248&fit=crop&auto=format`}
-              alt={"NDMC_Image"}
-              style={{ cursor: "pointer" }}
-              loading="lazy"
-              onClick={() => handleImgOpen(itemData.indexOf(item))}
-            />
-          </ImageListItem>
-        ))}
-      </ImageList>
-
+      {Object.entries(itemData).map(([section, images]) => (
+        <div key={section} style={{ marginBottom: "40px" }}>
+          <h2 style={{ margin: "20px 0", fontSize: "1.5rem", textAlign: "center" }}>
+            {section}
+          </h2>
+          <ImageList variant="masonry" cols={3} gap={8}>
+            {images.slice(0, count).map((item, index) => (
+              <ImageListItem key={index}>
+                <img
+                  srcSet={`${item}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                  src={`${item}?w=248&fit=crop&auto=format`}
+                  alt={section + "_image"}
+                  style={{ cursor: "pointer" }}
+                  loading="lazy"
+                  onClick={() => handleImgOpen(index)}
+                />
+              </ImageListItem>
+            ))}
+          </ImageList>
+        </div>
+      ))}
+  
       {open && (
         <StyledDialog
           handleClose={() => setOpen(false)}
           currImgIdx={currImgIdx}
           open={open}
-          itemData={itemData}
+          itemData={Object.values(itemData).flat()}
         />
       )}
     </div>
-  );
+  );  
 };
 
 // const itemData = [

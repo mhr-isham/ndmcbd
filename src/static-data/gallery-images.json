@@ -1,11 +1,38 @@
-[
-    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760030207/DSC_9203_1_mdvxma.jpg",
-    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760031277/DSC_0169_1_e1xwfl.jpg",
-    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760031144/538910889_1215590897280081_2008548109061585704_n_giexub.jpg",
-    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760031144/481287273_9134775076620132_8313505883936893316_n_okmtnj.jpg",
+{
+  "NMF": [
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760032763/490019950_1101784211994084_6171121397021401532_n_fcekmj.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760032764/489580928_1101788775326961_5790639975925810734_n_n0zhb1.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760032754/485740595_1087048490134323_2871517673443309952_n_rdxlcs.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760032741/488924418_1101776475328191_5182598318737738338_n_ix2bht.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760032741/488722279_1101802498658922_2146128446047497957_n_ekocvo.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760032752/485779415_1087046346801204_9004132931544505942_n_ehoqjo.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760032741/489287051_1101782245327614_3109080135910870281_n_kdis8a.jpg"
+  ],
+  "Academic Master": [
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760031145/538983223_1215608957278275_8728959668887066471_n_eqgopa.jpg",
     "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760030772/Photograph_for_Club_Report_n2hp8k.png",
-    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760030714/DSC_9661_1_bae6nj.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760031144/538910889_1215590897280081_2008548109061585704_n_giexub.jpg"
+  ],
+  "Freshers' Reception": [
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760032759/486559862_1092637796242059_6088691656948785945_n_uz0afs.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760032762/487077421_1092637789575393_8699794177340985584_n_fchbae.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760032762/487758859_1092637752908730_3120491438307066448_n_uiaijm.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760032750/485696096_1086630053509500_2538062521318239706_n_xzjhzf.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760031144/481287273_9134775076620132_8313505883936893316_n_okmtnj.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760032749/485727445_1086630523509453_4039314234838661109_n_exflk8.jpg"
+  ],
+  "Weekly Sessions & Workshops": [
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760032756/486605038_1090658003106705_4664947065847043500_n_c04s7n.jpg",
     "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760030598/518310959_1176333504539154_3721041774819875444_n_va79rd.jpg",
-    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760030248/DSC_9302_1_q3h0zk.jpg"
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760030714/DSC_9661_1_bae6nj.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760030207/DSC_9203_1_mdvxma.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760031277/DSC_0169_1_e1xwfl.jpg"
+  ],
+  "The Architects": [
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760032742/511309550_9919679004796398_1579218822874427719_n_ghknkx.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760032742/511004391_9918437398253892_520165722965391811_n_gzsijn.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760032746/480766628_1065532935619212_6698926589842542210_n_i0yk5y.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760031438/DSC_0562_1_mfdbpx.jpg",
+    "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760032743/150970945_3655197077911320_1952354760008332516_n_t2h8lw.jpg"
   ]
-  
+}

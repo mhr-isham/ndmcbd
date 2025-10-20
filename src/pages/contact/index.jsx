@@ -108,7 +108,7 @@ const Contact = () => {
 
   <Grid item>
     <a
-      href="mailto:contact@ndmcbd.com"
+      href="mailto:contact@ndmcbd.org"
       style={{ textDecoration: "none", color: "inherit" }}
     >
       <ContactBox>
@@ -117,7 +117,7 @@ const Contact = () => {
             <Icon icon={"mail-open"} icontype={"line"} size={5} />
           </Text>
           <Text design={{ size: "md", weight: "xBold" }}>Mail</Text>
-          <Text>contact@ndmcbd.com</Text>
+          <Text>contact@ndmcbd.org</Text>
         </ContactInnerBox>
         <Splash position={{ left: 0, top: 0 }} size={0.17} />
       </ContactBox>
