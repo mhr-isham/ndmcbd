@@ -9,7 +9,8 @@ import galleryImages from "../../../static-data/gallery-images.json";
 
 export const MasonryGallery = () => {
   const [open, setOpen] = React.useState(false);
-  const [itemData, setImage] = useState([]);
+  // const [itemData, setImage] = useState([]);
+  const [itemData] = useState(galleryImages);
   const [currImg, setCurrImg] = React.useState("");
   const [currImgIdx, setCurrImgIdx] = React.useState("");
   const [count, setCount] = React.useState(10);
@@ -47,7 +48,7 @@ export const MasonryGallery = () => {
   
   return (
     <div style={{ paddingBottom: "40px" }}>
-      {Object.entries(itemData).map(([section, images]) => (
+      {Object.entries(itemData || {}).map(([section, images]) => (
         <div key={section} style={{ marginBottom: "40px" }}>
           <h2 style={{ margin: "20px 0", fontSize: "1.5rem", textAlign: "center" }}>
             {section}
