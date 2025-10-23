@@ -35,6 +35,7 @@ const HeaderDrawer = ({ mobileOpen, handleDrawerToggle, window, navItems }) => {
             </ListItemText>
           </ListItem>
         ))}
+        {/*
         <ListItem>
           <ListItemText>
             <ShiningButton
@@ -45,7 +46,7 @@ const HeaderDrawer = ({ mobileOpen, handleDrawerToggle, window, navItems }) => {
               Register
             </ShiningButton>
           </ListItemText>
-        </ListItem>
+        </ListItem> */}
       </List>
       {/* <Splash position={{ left: 0, top: 0 }} width={"100px"} /> */}
     </Box>

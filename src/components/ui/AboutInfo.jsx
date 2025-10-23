@@ -6,10 +6,10 @@ const AboutInfo = ({ title, subtitle }) => {
   return (
     // <Grid item xs={5} md={2.5}>
     <SquareBox>
-      <ResponsiveText design={{ size: "md", weight: "xBold" }}>
+      <ResponsiveText design={{ size: "md", weight: "xBold" }} style={{ textAlign: "center" }}>
         {title}
       </ResponsiveText>
-      <ResponsiveText design={{ size: "xsm", weight: "light" }}>
+      <ResponsiveText design={{ size: "xsm", weight: "light" }} style={{ textAlign: "center" }}>
         {subtitle}
       </ResponsiveText>
     </SquareBox>

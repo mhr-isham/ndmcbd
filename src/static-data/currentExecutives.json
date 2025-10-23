@@ -25,7 +25,7 @@
     },
     {
       "post": "President",
-      "department": "Public Relation",
+      "department": "Public Relation and Outreach",
       "name": "Kayes Mahmud",
       "facebook": "",
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460976/490749640_1105881251584380_6737971627388971617_n_ayxmob.jpg"
@@ -97,14 +97,14 @@
     },
     {
       "post": "Vice President",
-      "department": "Public Relation",
+      "department": "Public Relation and Outreach",
       "name": "Nuren Raghib Shahriar",
       "facebook": "https://www.facebook.com/shahriar.rifat.3720190",
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460973/490470493_1105883018250870_685891268626161663_n_s1tyyw.jpg"
     },
     {
       "post": "Vice President",
-      "department": "Public Relation",
+      "department": "Public Relation and Outreach",
       "name": "Abrar Nafis Sadeque",
       "facebook": "",
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460983/490697139_1105883781584127_8214354055082964475_n_ikxlll.jpg"
@@ -112,15 +112,15 @@
 
     {
       "post": "Vice President",
-      "department": "Public Relation",
-      "name": "Ahnaf Tanjeem",
+      "department": "Public Relation and Outreach",
+      "name": "Ahmed Ahnaf Tanjeem",
       "facebook": "https://www.facebook.com/ahnaf.tanjeem",
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460991/490570688_1105882351584270_4699187090411140714_n_mt36sk.jpg"
     },
 
     {
       "post": "Vice President",
-      "department": "Public Relation",
+      "department": "Public Relation and Outreach",
       "name": "Ananno Das",
       "facebook": "",
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460980/490566200_1105892854916553_2474730749088999175_n_ysczzo.jpg"
@@ -128,7 +128,7 @@
 
     {
       "post": "Vice President",
-      "department": "Public Relation",
+      "department": "Public Relation and Outreach",
       "name": "Abdullah Ahmad",
       "facebook": "",
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760462404/489952103_1105897394916099_792883141108404568_n_ncf5xl.jpg"
@@ -136,39 +136,39 @@
 
     {
       "post": "Vice President",
-      "department": "Public Relation",
+      "department": "Public Relation and Outreach",
       "name": "Muhammad Nubain Ali",
       "facebook": "",
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460999/490473583_1105895261582979_9165038786679732502_n_foigg5.jpg"
     },
 
     {
-      "post": "Vice President",
-      "department": "Public Relation",
+      "post": "Secretary",
+      "department": "Public Relation and Outreach",
       "name": "Mashfir Rishan Chowdhury",
       "facebook": "https://www.facebook.com/mashfir.rishan.chw",
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460987/491382315_1105897704916068_4206152032579301356_n_grpjyk.jpg"
     },
 
     {
-      "post": "Vice President",
-      "department": "Public Relation",
+      "post": "Secretary",
+      "department": "Public Relation and Outreach",
       "name": "Mohammad Farhan Zaman",
       "facebook": "",
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760461001/490812500_1105901178249054_6111345147760883302_n_knjwzr.jpg"
     },
 
     {
-      "post": "Vice President",
-      "department": "Public Relation",
+      "post": "Secretary",
+      "department": "Public Relation and Outreach",
       "name": "Bidipto Saha",
       "facebook": "https://www.facebook.com/bidipto.saha.3",
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760461008/490889486_1105901434915695_4673953948698709503_n_dusxoh.jpg"
     },
 
     {
-      "post": "Vice President",
-      "department": "Public Relation",
+      "post": "Secretary",
+      "department": "Public Relation and Outreach",
       "name": "Pretam Talukder",
       "facebook": "https://www.facebook.com/pretam.talukder.9",
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460995/490451552_1105899334915905_3410352487312528786_n_hbzzst.jpg"
@@ -197,7 +197,7 @@
 
     {
       "post": "Secretary",
-      "department": "Public Relation",
+      "department": "Public Relation and Outreach",
       "name": "Md. Tanvir Anjum Mahin",
       "facebook": "",
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760461011/491829337_1105900254915813_1602280732094711962_n_zflbj9.jpg"
@@ -205,7 +205,7 @@
 
     {
       "post": "Secretary",
-      "department": "Public Relation",
+      "department": "Public Relation and Outreach",
       "name": "Tashfique Raiyan Maheen",
       "facebook": "",
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760461013/490588983_1105902741582231_763701988513655750_n_kkdr8q.jpg"
@@ -213,7 +213,7 @@
 
     {
       "post": "Secretary",
-      "department": "Public Relation",
+      "department": "Public Relation and Outreach",
       "name": "Abdey Manaf Bhuiyan",
       "facebook": "",
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760461021/490462745_1105902358248936_2954029583231238708_n_ifhehw.jpg"

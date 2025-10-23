@@ -26,7 +26,11 @@ const FormerExecutives = () => {
                 <ProfileCard
                   img={data.imgUrl}
                   name={data.name}
-                  post={`${data.post}, Dept. of ${data.department}`}
+                  post={
+                    data.department
+                      ? `${data.post}, Dept. of ${data.department}`
+                      : `${data.post}`
+                  }
                   fb={data.facebook}
                 />
               </Grid>
