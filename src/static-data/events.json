@@ -1,5 +1,10 @@
 [
- 
+  {
+    "event_title": " Creative Convergence 3.0",
+    "event_date": " 03 Nov 2025",
+    "event_cover": "https://res.cloudinary.com/dgw46nmoh/image/upload/v1761230375/565702924_1264279292411241_5150896554535652119_n_sjeju1.jpg",
+    "event_link": "https://www.facebook.com/share/p/1HSuYXHv2r/"
+  },
   {
     "event_title": " WEMS presents Intra Math Festival 2025 – Fall Edition",
     "event_date": " 24 Sep 2025",
@@ -12,7 +17,7 @@
     "event_cover": "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760039905/555583035_694675416985917_5439013068335437998_n_lot1m0.jpg",
     "event_link": "https://www.facebook.com/share/p/1LpJeBB9p6/"
   },
-  {
+  { 
     "event_title": " Intra Math Festival 2025 - Summer Edition",
     "event_date": " 7 May 2025",
     "event_cover": "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760972445/495199009_1124716003034238_5854229912162620359_n_efs31u.jpg",

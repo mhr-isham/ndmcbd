@@ -25,21 +25,21 @@ import { Link } from "react-router-dom";
 
 const EventCard = ({ status, title, img, date, link }) => {
   const loadingEvent = useRecoilValue(eventLoading);
+  
 
-  // Checking event status automatically
-  // const statusGenerator = (date) => {
-  //   const isPassed = isBefore(fromUnixTime(date), new Date());
-  //   if (isPassed) return "Ended";
+const statusGenerator = (date) => {
+   const isPassed = isBefore(fromUnixTime(date), new Date());
+   if (isPassed) return "Ended";
 
-  //   return "Ongoing";
-  // };
+   return "Ongoing";
+ };
 
   return (
     <EventCardContainer>
       {!loadingEvent ? (
         <a href={link} target="_blank" rel="noopener noreferrer">
           <EventImageBox img={img} sx={{ cursor: "pointer" }}>
-            <Badge>{status}</Badge>
+            <Badge>{statusGenerator(date)}</Badge>
           </EventImageBox>
         </a>
       ) : (

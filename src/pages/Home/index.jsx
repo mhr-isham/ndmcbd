@@ -39,7 +39,6 @@ import { useEffect, useState } from "react";
 import Gs from "../../assets/GS.jpg";
 import moderator from "../../assets/moderator.jpg";
 import { useRecoilState } from "recoil";
-// import events from "../../store/atoms/eventsAtom";
 import useEvents from "../../hooks/useEvents";
 import events from "../../store/atoms/eventsAtom";
 import FakeEvents from "../../components/ui/fakeEvents";
