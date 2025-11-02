@@ -74,6 +74,11 @@ const Footer = () => {
                 </StyledFooterLink>
               </li>
               <li>
+                <StyledFooterLink component={RouterLink} to={"/publication?tab=podcast"}>
+                  Podcast
+                </StyledFooterLink>
+              </li>
+              <li>
                 <StyledFooterLink
                   href="https://drive.google.com/drive/folders/1vKaCEUylP3rX7WO4soYsl3rlEiyhZvhz?usp=drive_link&fbclid=IwAR2TB7gsrFN36Hc6IbCxbfTPV0ahitg_HP7wYnDv0I6fc3HogHMqk13PE_g"
                   target="_blank"
@@ -93,10 +98,7 @@ const Footer = () => {
             <h4>Resources</h4>
             <ul className="links">
             <li>
-                <StyledFooterLink
-                  href="https://drive.google.com/drive/folders/1PK0Nb_TZmCw4HP4aSDhXwsUFkfyM0RQb"
-                  target="_blank"
-                >
+                <StyledFooterLink component={RouterLink} to={"/publication?tab=articles"}>
                   Articles
                 </StyledFooterLink>
               </li>
@@ -201,7 +203,7 @@ const Footer = () => {
               </a>
               <a
                 style={{ textDecoration: "none" }}
-                href="https://www.youtube.com/@ndmcbd"
+                href="https://www.youtube.com/@ndmc.official"
                 target="_blank"
               >
                 <Icon icon={"youtube"} icontype={"fill"} />

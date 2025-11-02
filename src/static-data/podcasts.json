@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "Podcast Episode 1",
+      "videoId": "hoil_UiOd50",
+      "thumbnail": "https://res.cloudinary.com/dgw46nmoh/image/upload/v1761979388/new_podcast_1_v6f1zy.png"
+    },
+    {
+      "id": 2,
+      "title": "Podcast Episode 2",
+      "videoId": "zdbmoNbuXpA",
+      "thumbnail": "https://res.cloudinary.com/dgw46nmoh/image/upload/v1761979388/kuddus_zusjfs.png"
+    },
+    {
+      "id": 3,
+      "title": "Podcast Episode 3",
+      "videoId": "l8vZICKLHcY",
+      "thumbnail": "https://res.cloudinary.com/dgw46nmoh/image/upload/v1761979389/tasmeem_yyymnz.png"
+    }
+  ]
+  

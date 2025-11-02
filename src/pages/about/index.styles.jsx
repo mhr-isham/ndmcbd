@@ -67,3 +67,23 @@ export const MissionGridLayout = styled(Grid)`
     flex-direction: column;
   }
 `;
+
+export const MembershipTitle = styled.h1`
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: ${(props) => props.theme.palette.primary.main};
+`;
+
+export const MembershipSection = styled.div`
+  margin-top: 40px;
+`;
+
+export const SectionTitle = styled.h2`
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: ${(props) => props.theme.palette.primary.main};
+`;
+

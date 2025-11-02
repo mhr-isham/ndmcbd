@@ -857,7 +857,7 @@
   {
     "session": "2017",
     "executives": [
-      { "post": "Hypothesis", "department": "", "name": "Inan Marshad" },
+      { "post": "Hypothesis", "department": "", "name": "Inan Marshad", "imgUrl":"https://res.cloudinary.com/dgw46nmoh/image/upload/v1761240799/da80b917-6e76-4785-93e4-34cba66a2a8a_z04mdb.jpg" },
       { "post": "Graphing", "department": "", "name": "Tanjeem Azwad Zaman", "imgUrl": "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760039539/Tanjeem_Azwad_Zaman_e7zehs.jpg"  },
       { "post": "Projection", "department": "", "name": "Syed Safayat Ahmed" },
       { "post": "Projection", "department": "", "name": "Md. Faruk Jamil", "imgUrl": "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760039691/Faruk_Jamil_pfogs8.jpg" },

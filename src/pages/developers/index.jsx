@@ -31,6 +31,12 @@ const DevelopersPage = () => {
       img: "https://res.cloudinary.com/ndmc/image/upload/v1707391361/hasib_1_agsfaw.jpg",
       fb: "https://www.facebook.com/hasib.unique",
     },
+    {
+      name: "Ibteeker Mahir Ishum",
+      roll: "12610023",
+      img: "https://res.cloudinary.com/dgw46nmoh/image/upload/v1762006966/photo_2025-11-01_20-15-48_phmv4n.jpg",
+      fb: "https://linktr.ee/mhrisham",
+    },
   ];
 
   // State to hold the shuffled cards
@@ -46,7 +52,7 @@ const DevelopersPage = () => {
     setShuffledCards(shuffled);
   };
 
-  useMemo(() => {
+  useEffect(() => {
     shuffleCards();
   }, []);
 

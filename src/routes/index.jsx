@@ -7,6 +7,7 @@ import Executives from "../pages/executives";
 import Membership from "../pages/membership";
 import Contact from "../pages/contact";
 import NotFound from "../pages/notFound";
+import Publication from "../pages/publication";
 // import Login from "../pages/login";
 // import FestRegistration from "../pages/fest-registration";
 import DevelopersPage from "../pages/developers";
@@ -26,6 +27,7 @@ const AppRouter = () => {
       <Route path="/membership" element={<Membership />} />
       <Route path="/executives" element={<Executives />} />
       <Route path="/developers" element={<DevelopersPage />} />
+      <Route path="/publication" element={<Publication />} />
       {/*<Route path="/nmf/register/:ca_ref" element={<Solo />} /> */}
       {/*<Route path="/nmf/ca" element={<CA />} /> */}
       {/*<Route path="/nmf/register" element={<Solo />} /> */}

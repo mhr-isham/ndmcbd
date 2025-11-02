@@ -37,14 +37,14 @@ import { caUser } from "../../store/atoms/profile";
 import { caProfile } from "../../store/atoms/caProfile";
 
 const navItems = {
-  Home: "/",
+  // Home: "/",
   About: "/about",
   Events: "/events",
+  Publication: "/publication",
   Gallery: "/gallery",
   Executives: "/executives",
-  Membership: "/membership",
+  // Membership: "/membership",
   Contact: "/contact",
-  // Contact: "/contact",
 };
 
 function HideOnScroll(props) {
