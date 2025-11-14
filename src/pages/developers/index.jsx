@@ -34,7 +34,7 @@ const DevelopersPage = () => {
     {
       name: "Ibteeker Mahir Ishum",
       roll: "12610023",
-      img: "https://res.cloudinary.com/dgw46nmoh/image/upload/v1762006966/photo_2025-11-01_20-15-48_phmv4n.jpg",
+      img: "https://res.cloudinary.com/dgw46nmoh/image/upload/v1762496992/IMG-20250625-WA0038_qysasg.jpg",
       fb: "https://linktr.ee/mhrisham",
     },
   ];

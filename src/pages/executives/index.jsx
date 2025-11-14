@@ -91,7 +91,7 @@ export default function Executives() {
               <ProfileCard
                 img={foundingAxiom}
                 name={"Md. Rezaul Karim"}
-                post={`Founding Axiom and Moderator`}
+                post={`Founding Axiom`}
               />
             </CenterGrid>
           </div>

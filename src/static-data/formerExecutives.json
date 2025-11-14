@@ -1,4 +1,254 @@
 [
+  {
+    "session": 2024,
+    "executives": [
+      {
+        "post": "General Secretary",
+        "department": "",
+        "name": "Shahriar Sabit Sarthok",
+        "facebook": "https://www.facebook.com/shahriar.sabit.sarthok",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460907/490385521_1105859378253234_8671575799514250294_n_jlh5wg.jpg"
+      },
+  
+      {
+        "post": "President",
+        "department": "Administration",
+        "name": "Mahir Tajwar",
+        "facebook": "https://www.facebook.com/mahirtajwar.17",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460909/490623181_1105861541586351_6768031492566814858_n_s0c5gp.jpg"
+      },
+      {
+        "post": "Vice President",
+        "department": "Administration",
+        "name": "Alif Ibn Akhtar",
+        "facebook": "https://www.facebook.com/alif.ia.2006",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460912/490394178_1105861348253037_1734483115966572366_n_q7e1la.jpg"
+      },
+      {
+        "post": "President",
+        "department": "Public Relation and Outreach",
+        "name": "Kayes Mahmud",
+        "facebook": "",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460976/490749640_1105881251584380_6737971627388971617_n_ayxmob.jpg"
+      },
+      {
+        "post": "President",
+        "department": "Graphics",
+        "name": "Ahnaf Mahmud Hasan",
+        "facebook": "https://www.facebook.com/ahnafhasan0110",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760461005/490933206_1105902164915622_4503006510404525374_n_v7dysd.jpg"
+      },
+      {
+        "post": "President",
+        "department": "Academics",
+        "name": "S.M. Abdul Fattah",
+        "facebook": "https://www.facebook.com/afattah1000",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460918/490329576_1105859318253240_413012422717656729_n_xnqcqz.jpg"
+      },
+  
+      {
+        "post": "President",
+        "department": "Publication",
+        "name": "Tahmid Rahman",
+        "facebook": "https://www.facebook.com/tahmid.rahman.779857",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460957/491408177_1105880618251110_8447458547805357497_n_p5r4y6.jpg"
+      },
+      {
+        "post": "Vice President",
+        "department": "Publication",
+        "name": "Aranya Basak",
+        "facebook": "https://www.facebook.com/aranya.basak.2025",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460963/490524864_1105880491584456_945390676547699873_n_klrvrq.jpg"
+      },
+      {
+        "post": "Vice President",
+        "department": "Publication",
+        "name": "Wasif Bin Ismail",
+        "facebook": "",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460961/490745666_1105882521584253_7865026795019339278_n_oz5ms1.jpg"
+      },
+      {
+        "post": "Vice President",
+        "department": "Graphics",
+        "name": "Amir Hamza Antor",
+        "facebook": "https://www.facebook.com/antor.antor.7587370",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760461018/490505799_1105903794915459_513039659123224366_n_zo1n5r.jpg"
+      },
+      {
+        "post": "Vice President",
+        "department": "Graphics",
+        "name": "Arittro Arindom Sporsho",
+        "facebook": "https://www.facebook.com/antor.antor.7587370",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760461024/490554449_1105903204915518_3648149085329431602_n_jcbipb.jpg"
+      },
+      {
+        "post": "Vice President",
+        "department": "Academics",
+        "name": "Nabid Hasan",
+        "facebook": "https://www.facebook.com/nab1dhasan",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460922/490735305_1105865964919242_9212687620904641020_n_nbofff.jpg"
+      },
+  
+      {
+        "post": "Vice President",
+        "department": "Academics",
+        "name": "Qazi Masroor Hossain",
+        "facebook": "https://www.facebook.com/qazi.masroor.hossain.2025",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460927/490440008_1105860598253112_4292833542862310748_n_nzakri.jpg"
+      },
+      {
+        "post": "Vice President",
+        "department": "Public Relation and Outreach",
+        "name": "Nuren Raghib Shahriar",
+        "facebook": "https://www.facebook.com/shahriar.rifat.3720190",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460973/490470493_1105883018250870_685891268626161663_n_s1tyyw.jpg"
+      },
+      {
+        "post": "Vice President",
+        "department": "Public Relation and Outreach",
+        "name": "Abrar Nafis Sadeque",
+        "facebook": "",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460983/490697139_1105883781584127_8214354055082964475_n_ikxlll.jpg"
+      },
+  
+      {
+        "post": "Vice President",
+        "department": "Public Relation and Outreach",
+        "name": "Ahmed Ahnaf Tanjeem",
+        "facebook": "https://www.facebook.com/ahnaf.tanjeem",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460991/490570688_1105882351584270_4699187090411140714_n_mt36sk.jpg"
+      },
+  
+      {
+        "post": "Vice President",
+        "department": "Public Relation and Outreach",
+        "name": "Ananno Das",
+        "facebook": "",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460980/490566200_1105892854916553_2474730749088999175_n_ysczzo.jpg"
+      },
+  
+      {
+        "post": "Vice President",
+        "department": "Public Relation and Outreach",
+        "name": "Abdullah Ahmad",
+        "facebook": "",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760462404/489952103_1105897394916099_792883141108404568_n_ncf5xl.jpg"
+      },
+  
+      {
+        "post": "Vice President",
+        "department": "Public Relation and Outreach",
+        "name": "Muhammad Nubain Ali",
+        "facebook": "",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460999/490473583_1105895261582979_9165038786679732502_n_foigg5.jpg"
+      },
+  
+      {
+        "post": "Secretary",
+        "department": "Public Relation and Outreach",
+        "name": "Mashfir Rishan Chowdhury",
+        "facebook": "https://www.facebook.com/mashfir.rishan.chw",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460987/491382315_1105897704916068_4206152032579301356_n_grpjyk.jpg"
+      },
+  
+      {
+        "post": "Secretary",
+        "department": "Public Relation and Outreach",
+        "name": "Mohammad Farhan Zaman",
+        "facebook": "",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760461001/490812500_1105901178249054_6111345147760883302_n_knjwzr.jpg"
+      },
+  
+      {
+        "post": "Secretary",
+        "department": "Public Relation and Outreach",
+        "name": "Bidipto Saha",
+        "facebook": "https://www.facebook.com/bidipto.saha.3",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760461008/490889486_1105901434915695_4673953948698709503_n_dusxoh.jpg"
+      },
+  
+      {
+        "post": "Secretary",
+        "department": "Public Relation and Outreach",
+        "name": "Pretam Talukder",
+        "facebook": "https://www.facebook.com/pretam.talukder.9",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460995/490451552_1105899334915905_3410352487312528786_n_hbzzst.jpg"
+      },
+      {
+        "post": "Secretary",
+        "department": "Academics",
+        "name": "Suvasish Halder",
+        "facebook": "https://www.facebook.com/Suvasish.Anu",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460930/490540265_1105861378253034_4874496008266272976_n_p0ttht.jpg"
+      },
+      {
+        "post": "Secretary",
+        "department": "Academics",
+        "name": "Mahir Ahmed",
+        "facebook": "https://www.facebook.com/maaahirrrr",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460934/491394537_1105864014919437_1189901803331537807_n_vyspvg.jpg"
+      },
+      {
+        "post": "Secretary",
+        "department": "Academics",
+        "name": "Reza Rumman",
+        "facebook": "https://www.facebook.com/reza.rumman",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460940/490565971_1105865214919317_933288087486772585_n_g1gt9i.jpg"
+      },
+  
+      {
+        "post": "Secretary",
+        "department": "Public Relation and Outreach",
+        "name": "Md. Tanvir Anjum Mahin",
+        "facebook": "",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760461011/491829337_1105900254915813_1602280732094711962_n_zflbj9.jpg"
+      },
+  
+      {
+        "post": "Secretary",
+        "department": "Public Relation and Outreach",
+        "name": "Tashfique Raiyan Maheen",
+        "facebook": "",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760461013/490588983_1105902741582231_763701988513655750_n_kkdr8q.jpg"
+      },
+  
+      {
+        "post": "Secretary",
+        "department": "Public Relation and Outreach",
+        "name": "Abdey Manaf Bhuiyan",
+        "facebook": "",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760461021/490462745_1105902358248936_2954029583231238708_n_ifhehw.jpg"
+      },
+      {
+        "post": "Secretary",
+        "department": "Academics",
+        "name": "Sha Newaz Zarif",
+        "facebook": "https://www.facebook.com/shanewaz.zarif",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460950/490717947_1105866004919238_4336242898963609969_n_tgjapo.jpg"
+      },
+      {
+        "post": "Secretary",
+        "department": "Academics",
+        "name": "Ayham Saad Hossain",
+        "facebook": "https://www.facebook.com/ayhamsaad.hossain",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460954/490385840_1105865938252578_4419062094871633408_n_yparum.jpg"
+      },
+      {
+        "post": "Secretary",
+        "department": "Publication",
+        "name": "Pratyaya Saha",
+        "facebook": "",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460968/490587280_1105881138251058_3842799755021644008_n_jpsqsg.jpg"
+      },
+      {
+        "post": "Secretary",
+        "department": "Publication",
+        "name": "Moaj Hossain",
+        "facebook": "",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1760460967/491280733_1105882121584293_5908902016761219630_n_ww9l3m.jpg"
+      }
+    ]
+  },  
 
   {
     "session": 2023,

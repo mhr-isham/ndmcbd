@@ -381,7 +381,7 @@ const Home = () => {
                   <StyledGrid item lg={5.7} sm={12} data-aos="zoom-in-up">
                     <Testimonial
                       name={"Md. Rezaul Karim"}
-                      designation={"Club Moderator"}
+                      designation={"Axiom"}
                       img={moderator}
                     >
                       Our club represents the entire math department and is the
@@ -393,8 +393,8 @@ const Home = () => {
                   </StyledGrid>
                   <StyledGrid item lg={5.7} sm={12} data-aos="zoom-in-up">
                     <Testimonial
-                      name={"Shahriar Sabit Sarthok"}
-                      designation={"General Secretary"}
+                      name={"Mohammad Sakib Shahriar"}
+                      designation={"Hypothesis"}
                       img={Gs}
                     >
                       Notre Dame Math Club (NDMC) is a wonderful community for

@@ -103,10 +103,7 @@ const Footer = () => {
                 </StyledFooterLink>
               </li>
               <li>
-                <StyledFooterLink
-                  href="https://drive.google.com/drive/folders/1v5_QzgazIEHUM9xrELXgcYFa4PQCxzgQ?fbclid=IwAR1C2-BsLWJ-mzNVJuULP4i0h3xR8MDcvDL3IMzDfbYV0Lt_1yP4bI_ZQcQ"
-                  target="_blank"
-                >
+              <StyledFooterLink component={RouterLink} to={"/publication?tab=NDMC_questions"}>
                   Problem Sets
                 </StyledFooterLink>
               </li>
@@ -196,7 +193,7 @@ const Footer = () => {
               </a>
               <a
                 style={{ textDecoration: "none" }}
-                href="https://www.instagram.com/ndmc.official/?fbclid=IwAR3Ha0owAaxJqEZPtkAB6BpJDQK8gcyl9ht1QWMdt6balZxGEiJ77sft12Q"
+                href="https://www.instagram.com/ndmc.official"
                 target="_blank"
               >
                 <Icon icon={"instagram"} icontype={"fill"} />
@@ -211,7 +208,7 @@ const Footer = () => {
 
               <a
                 style={{ textDecoration: "none" }}
-                href="https://www.linkedin.com/company/ndmc-official?fbclid=IwAR2YYMPswijICRTH8lf1c-gTtMTDkVzXjZ3R6nhpvUaT7UX-AMQFPFwYivI"
+                href="https://www.linkedin.com/company/ndmc-official"
                 target="_blank"
               >
                 <Icon icon={"linkedin"} icontype={"fill"} />
