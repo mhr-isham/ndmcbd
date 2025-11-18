@@ -26,7 +26,9 @@ const CurrentExecutives = () => {
   return (
     <div container gap={"1rem"}>
       <SessionBox>
-        <Text design={{ size: "lsm", weight: "xBold" }}>2024-2025</Text>
+      <Text design={{ size: "lsm", weight: "xBold" }}>
+      {`${executives.session}-${executives.session + 1}`}
+    </Text>
         <Splash position={{ left: 0, top: 0 }} size={0.3} />
       </SessionBox>
       <CenterGrid container gap={"1rem"}>

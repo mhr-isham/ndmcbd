@@ -354,8 +354,14 @@
       {
         "post": "Vice President",
         "department": "Publication",
+        "name": "Samsul Alam Shafi",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1763383516/486206100_1087222160116956_7831395163690895789_n_bizfcx.jpg"
+      },
+      {
+        "post": "Vice President",
+        "department": "Publication",
         "name": "Darshan Paul",
-        "facebook": "https://www.facebook.com/bokaif",
+        "facebook": "https://www.facebook.com/darshan.paul.001",
         "imgUrl": "https://res.cloudinary.com/dsxqy3cdh/image/upload/v1760974930/485149067_1087222053450300_8093553727890681003_n_wwttuo.jpg"
       },
       {
@@ -772,12 +778,15 @@
         "post": "Secretary",
         "department": "Olympiad",
         "name": "Arjo Kar",
-        "facebook": "https://www.facebook.com/bithika.bithi.351?mibextid=ZbWKwL"
+        "facebook": "https://www.facebook.com/arjokar1199",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1763383528/582288593_4225506981098638_6637503077383085109_n_rfjj9r.png"
       },
       {
         "post": "Secretary",
         "department": "Olympiad",
-        "name": "Ahmed Saad Sabit"
+        "name": "Ahmed Saad Sabit",
+        "facebook": "https://www.facebook.com/knerdhead",
+        "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1763383532/582020703_842544558188790_993341499707224895_n_l9rkvr.png"
       },
       {
         "post": "Secretary",
@@ -1113,7 +1122,7 @@
       { "post": "Projection", "department": "", "name": "Md. Faruk Jamil", "imgUrl": "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760039691/Faruk_Jamil_pfogs8.jpg" },
       { "post": "Mapping", "department": "", "name": "Md. Muktadir Anik" },
       { "post": "Proof", "department": "", "name": "Thanic Noor Samin","imgUrl": "https://res.cloudinary.com/dgw46nmoh/image/upload/v1760039580/Thanic_Nur_Samin_pgglzm.jpg"  },
-      { "post": "Logic", "department": "", "name": "Sayed Md. Sameer Faiyaz" },
+      { "post": "Logic", "department": "", "name": "Sayed Md. Sameer Faiyaz", "facebook": "https://www.facebook.com/syed.sameer.faiyaz", "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1763383734/583198453_1474668701326384_3198780113478557395_n_ivvcki.png"},
       { "post": "Operator 1", "department": "", "name": "Md. Moin Khan" },
       { "post": "Operator 2", "department": "", "name": "Foysal Khan" },
       {
