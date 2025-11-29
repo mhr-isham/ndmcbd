@@ -159,32 +159,33 @@
         "articles": [
           {
             "id": 20,
+            "title": "Earthquake: A Mathematical Analysis",
+            "author": "Mohammad Sakib Shahriar",
+            "pdfUrl": "https://ndmcbd.org/pdfs/Earthquakes.pdf",
+            "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1764406215/d9035248-db4e-4f49-8d8f-97373cfc30e8_bdllvw.jpg"
+          },
+            {
+            "id": 21,
             "title": "From Conics to Cosmos",
             "author": "Tasdik Ahmed Tonmay",
             "pdfUrl": "https://ndmcbd.org/pdfs/From%20Conics%20to%20Cosmos.pdf",
             "thumbnail": "https://res.cloudinary.com/dyoqskwgq/image/upload/v1762020085/557788162_1251387677033736_5159359331897159127_n_pwtrlj.jpg"
           },
           {
-            "id": 21,
+            "id": 22,
             "title": "Induction",
             "author": "Md Jabir Hasan",
             "pdfUrl": "https://ndmcbd.org/pdfs/Induction.pdf",
             "thumbnail": "https://res.cloudinary.com/dyoqskwgq/image/upload/v1762020167/554855346_1241989731306864_2616338504992441335_n_w3aqup.jpg"
           },
           {
-              "id": 22,
+              "id": 23,
               "title": "Taylor Series of Cosine Function",
               "author": "Showmajit Saha",
               "pdfUrl": "https://ndmcbd.org/pdfs/Taylor%20Series%20of%20Cosine%20Function.pdf",
               "thumbnail": "https://res.cloudinary.com/dfliocqzs/image/upload/v1762024251/Taylor_Series_of_Cosine_Function-1_a0gahi.jpg"
-          },
-          {
-              "id": 23,
-              "title": "Earthquake: A Mathematical Analysis",
-              "author": "Md. Sakib Shahriar",
-              "pdfUrl": "https://ndmcbd.org/pdfs/Earthquakes.pdf",
-              "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1764406215/d9035248-db4e-4f49-8d8f-97373cfc30e8_bdllvw.jpg"
           }
+          
         ]
       }
   ]
