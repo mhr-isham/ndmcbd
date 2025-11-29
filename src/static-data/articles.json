@@ -177,6 +177,13 @@
               "author": "Showmajit Saha",
               "pdfUrl": "https://ndmcbd.org/pdfs/Taylor%20Series%20of%20Cosine%20Function.pdf",
               "thumbnail": "https://res.cloudinary.com/dfliocqzs/image/upload/v1762024251/Taylor_Series_of_Cosine_Function-1_a0gahi.jpg"
+          },
+          {
+              "id": 23,
+              "title": "Earthquake: A Mathematical Analysis",
+              "author": "Md. Sakib Shahriar",
+              "pdfUrl": "https://ndmcbd.org/pdfs/Earthquakes.pdf",
+              "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1764406215/d9035248-db4e-4f49-8d8f-97373cfc30e8_bdllvw.jpg"
           }
         ]
       }
