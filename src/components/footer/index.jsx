@@ -208,7 +208,7 @@ const Footer = () => {
 
               <a
                 style={{ textDecoration: "none" }}
-                href="https://www.linkedin.com/company/ndmc-official"
+                href="https://www.linkedin.com/company/notre-dame-math-club/"
                 target="_blank"
               >
                 <Icon icon={"linkedin"} icontype={"fill"} />
