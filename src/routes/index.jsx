@@ -6,6 +6,7 @@ import Gallery from "../pages/gallery";
 import Executives from "../pages/executives";
 import Membership from "../pages/membership";
 import Contact from "../pages/contact";
+import CertificateValidation from "../pages/certificate-validation";
 import NotFound from "../pages/notFound";
 import Publication from "../pages/publication";
 // import Login from "../pages/login";
@@ -28,6 +29,7 @@ const AppRouter = () => {
       <Route path="/executives" element={<Executives />} />
       <Route path="/developers" element={<DevelopersPage />} />
       <Route path="/publication" element={<Publication />} />
+      <Route path="/certificate" element={<CertificateValidation />} />
       {/*<Route path="/nmf/register/:ca_ref" element={<Solo />} /> */}
       {/*<Route path="/nmf/ca" element={<CA />} /> */}
       {/*<Route path="/nmf/register" element={<Solo />} /> */}

@@ -55,6 +55,7 @@ import {
   AboutImageBox,
   HomeBtnContainer,
   SectionInfoContainer,
+  FloatingScrollLink,
 } from "./index.styles";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
@@ -63,6 +64,8 @@ import SectorsSection from "./sectorsSection";
 
 const Home = () => {
   usePageTitle("Home");
+
+  const [showFloatingScroll, setShowFloatingScroll] = useState(true);
 
   const eventList = useEvents();
   const [clubEvents, setEvents] = useRecoilState(events);
@@ -159,9 +162,30 @@ const Home = () => {
       */}
               </Grid>
             </StyledGridContainer>
-
+{/*//POPUP
             <Splash position={{ left: "-250px", top: 0 }} />
             <Splash position={{ right: "-250px", bottom: 0 }} />
+
+            {showFloatingScroll && (
+        <FloatingScrollLink
+          href="https://www.facebook.com/events/869100132207557/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="https://res.cloudinary.com/dh4j8hdty/image/upload/v1763813701/cb781275-cb67-482c-94de-28b310f97fdf.png" alt="Event" />
+          <span>Learn More</span>
+          <div 
+            className="close-button" 
+            onClick={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              setShowFloatingScroll(false);
+            }}
+            aria-label="Close"
+          />
+        </FloatingScrollLink>
+      )}
+      */}
           </HeroContainer>
 
           {/* ======================= About us Section ============================== */}
