@@ -78,18 +78,83 @@
     "event_link": " https://www.facebook.com/events/253271790611389/"
   },
   {
+    "event_title": "Aqua Paints presents Intra Math Festival 2023",
+    "event_date": "17 May 2023",
+    "event_cover": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768626226/481467273_1070279255144580_769919090368130934_n_p6bivl.jpg",
+    "event_link": "https://www.facebook.com/events/214948527945856/"
+  },
+  {
+    "event_title": "3rd Annual Notre Dame Math Festival 2023",
+    "event_date": "4 Mar 2023",
+    "event_cover": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768626426/480941587_1065190878986751_8788962001729451816_n_ocpugo.jpg",
+    "event_link": "https://www.facebook.com/events/575710747394949/"
+  },
+  {
+    "event_title": "Intra Math Festival 2022 - Winter Season",
+    "event_date": "2 Nov 2022",
+    "event_cover": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768626546/484384981_9213612668736372_8298112915192110392_n_qlwmzi.jpg",
+    "event_link": "https://www.facebook.com/events/507018114676946/"
+  },
+  {
     "event_title": "Intra Speed-Cubing Contest 1.0 ",
     "event_date": " 24 Aug 2022",
     "event_cover": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1766995053/606960380_1199222408370901_5860792831716759292_n_vtefut.jpg",
     "event_link": " https://www.facebook.com/share/p/1A8TMBzEH8/"
+  }, 
+  {
+    "event_title": "2nd Intra Math Olympiad",
+    "event_date": "29 Jun 2022",
+    "event_cover": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768626616/482213029_9138153176282322_4649794908795133838_n_bpi8f2.jpg",
+    "event_link": "https://www.facebook.com/events/1152533518926189/"
+  },
+  {
+    "event_title": "NDMC Presents Intra Math Olympiad",
+    "event_date": "30 Mar 2022",
+    "event_cover": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768626693/480494537_9064791260285181_8182674298661464861_n_jwjztr.jpg",
+    "event_link": "https://www.facebook.com/events/748650872785476/"
+  },
+  {
+    "event_title": "The Exponent Continuum 2.0. powered by iXora Solution Ltd.",
+    "event_date": "2 Nov 2021",
+    "event_cover": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768626746/474619275_8903527333078242_7671152453371783768_n_kqej4v.jpg",
+    "event_link": "https://www.facebook.com/events/912308609389794"
+  },
+  {
+    "event_title": "Euclid's Apprentice",
+    "event_date": "24 Jul 2021",
+    "event_cover": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768626816/469282320_8651209954976649_946588088975190802_n_migkwi.jpg",
+    "event_link": "https://www.facebook.com/events/329710591946758/"
+  },
+  {
+    "event_title": "Notre Dame Math Club presents Intra-College Math Olympiad",
+    "event_date": "5 Mar 2021",
+    "event_cover": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768626889/151415791_3646587192105642_7089011972690371233_n_trgcxg.jpg",
+    "event_link": "https://www.facebook.com/events/417678839494421/"
+  },
+  {
+    "event_title": "The Exponent Continuum",
+    "event_date": "27 Aug 2020",
+    "event_cover": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768626949/118418240_3147080555389644_7614718748237447506_n_osmkxk.jpg",
+    "event_link": "https://www.facebook.com/events/618436065522674/"
+  },
+  {
+    "event_title": "IUB presents The 2nd Notre Dame Math Festival 2018",
+    "event_date": "12 Oct 2018",
+    "event_cover": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768627014/43245337_1800482883382758_1242860567916445696_n_p0rrci.jpg",
+    "event_link": "https://www.facebook.com/events/1511173878982736/"
   },
   {
     "event_title": "Intra-College Mathematical Poster Designing Competition'18 ",
     "event_date": " 22 Feb 2018",
     "event_cover": " https://res.cloudinary.com/dh4j8hdty/image/upload/v1766993872/511297549_9918440478253584_4530621251026285927_n_ycgjce.jpg",
     "event_link": " https://www.facebook.com/events/s/intra-college-mathematical-pos/2172949862723150/"
-  }
-  
+  },
+  {
+    "event_title": "1st Notre Dame Math Festival -2018",
+    "event_date": "19 Jan 2018",
+    "event_cover": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768627068/511553912_9917333348364297_1536795118444885114_n_sn2qfn.jpg",
+    "event_link": "https://www.facebook.com/events/168803663888019/"
+  } 
 ]
 
 
