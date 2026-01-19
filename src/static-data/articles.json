@@ -182,32 +182,18 @@
           }
         ]
       },
-      {
+        {
         "section": "Proof Techniques & Others",
         "articles": [
-          {
-            "id": 24,
-            "title": "Earthquake: A Mathematical Analysis",
-            "author": "Mohammad Sakib Shahriar",
-            "pdfUrl": "https://ndmcbd.org/pdfs/Earthquakes.pdf",
-            "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1764406215/d9035248-db4e-4f49-8d8f-97373cfc30e8_bdllvw.jpg"
-          },
             {
+            "id": 24,
+            "title": "Integration Bee Handouts",
+            "author": "Muhammad Rakibul Alam",
+            "pdfUrl": "https://ndmcbd.org/pdfs/Integration_Bee_Handouts.pdf",
+            "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768832858/616834811_1439073364454142_3262686189477162883_n_hwpuxs.jpg"  
+            },
+          {
             "id": 25,
-            "title": "From Conics to Cosmos",
-            "author": "Tasdik Ahmed Tonmay",
-            "pdfUrl": "https://ndmcbd.org/pdfs/From%20Conics%20to%20Cosmos.pdf",
-            "thumbnail": "https://res.cloudinary.com/dyoqskwgq/image/upload/v1762020085/557788162_1251387677033736_5159359331897159127_n_pwtrlj.jpg"
-          },
-          {
-            "id": 26,
-            "title": "Induction",
-            "author": "Md Jabir Hasan",
-            "pdfUrl": "https://ndmcbd.org/pdfs/Induction.pdf",
-            "thumbnail": "https://res.cloudinary.com/dyoqskwgq/image/upload/v1762020167/554855346_1241989731306864_2616338504992441335_n_w3aqup.jpg"
-          },
-          {
-            "id": 27,
             "title": "Taylor Series of Cosine Function",
             "author": "Showmajit Saha",
             "pdfUrl": "https://ndmcbd.org/pdfs/Taylor%20Series%20of%20Cosine%20Function.pdf",
@@ -217,10 +203,36 @@
         ]
       },
       {
+        "section": "Proof Techniques & Others",
+        "articles": [
+          {
+            "id": 26,
+            "title": "Earthquake: A Mathematical Analysis",
+            "author": "Mohammad Sakib Shahriar",
+            "pdfUrl": "https://ndmcbd.org/pdfs/Earthquakes.pdf",
+            "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1764406215/d9035248-db4e-4f49-8d8f-97373cfc30e8_bdllvw.jpg"
+          },
+            {
+            "id": 27,
+            "title": "From Conics to Cosmos",
+            "author": "Tasdik Ahmed Tonmay",
+            "pdfUrl": "https://ndmcbd.org/pdfs/From%20Conics%20to%20Cosmos.pdf",
+            "thumbnail": "https://res.cloudinary.com/dyoqskwgq/image/upload/v1762020085/557788162_1251387677033736_5159359331897159127_n_pwtrlj.jpg"
+          },
+          {
+            "id": 28,
+            "title": "Induction",
+            "author": "Md Jabir Hasan",
+            "pdfUrl": "https://ndmcbd.org/pdfs/Induction.pdf",
+            "thumbnail": "https://res.cloudinary.com/dyoqskwgq/image/upload/v1762020167/554855346_1241989731306864_2616338504992441335_n_w3aqup.jpg"
+          },    
+        ]
+      },
+      {
         "section": "Weekly Session Handouts",
         "articles": [
           {
-            "id": 28,
+            "id": 29,
             "title": "Functional Equations",
             "author": "07/01/2026",
             "pdfUrl": "https://ndmcbd.org/pdfs/Session-Handouts-1.pdf",
