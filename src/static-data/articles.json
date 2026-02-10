@@ -128,27 +128,34 @@
         "articles": [
           {
             "id": 17,
+            "title": "Inversive Geometry",
+            "author": "Fahim Sadat",
+            "pdfUrl": "https://ndmcbd.org/pdfs/Inversive_geometry.pdf",
+            "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1770710030/628031479_914806520995082_2420073554927204287_n_wg9mlq.jpg"
+          },
+          {
+            "id": 18,
             "title": "Angle Chasing",
             "author": "Arafat Bin Boiduryo",
             "pdfUrl": "https://ndmcbd.org/pdfs/Angle%20Chasing.pdf",
             "thumbnail": "https://res.cloudinary.com/dfliocqzs/image/upload/v1762024227/Angle_Chasing-01_ucvkj2.jpg"
           },
           {
-            "id": 18,
+            "id": 19,
             "title": "Angles and Lengths",
             "author": "Samit Sayum Chowdhury",
             "pdfUrl": "https://ndmcbd.org/pdfs/Angles%20and%20Lengths.pdf",
             "thumbnail": "https://res.cloudinary.com/dfliocqzs/image/upload/v1762024227/Angles_and_Lengths-01_za0fs8.jpg"
           },
           {
-              "id": 19,
+              "id": 20,
               "title": "Ceva's Theorem",
               "author": "Swapnil Mandal",
             "pdfUrl": "https://ndmcbd.org/pdfs/Ceva_s%20Theorem.pdf",
             "thumbnail": "https://res.cloudinary.com/dyoqskwgq/image/upload/v1762020663/486184065_1085407913631714_2312855017284266107_n_y3fcer.jpg"
           },
           {
-              "id": 20,
+              "id": 21,
               "title": "Homothety",
               "author": "Swapnil Mandal",
               "pdfUrl": "https://ndmcbd.org/pdfs/Homothety.pdf",
@@ -160,28 +167,28 @@
         "section": "Number Theory",
         "articles": [
           {
-            "id": 21,
+            "id": 22,
             "title": "Euler's Totient Theorem and Fermat's Little Theorem",
             "author": "Md Raihan Tamzid",
             "pdfUrl": "https://ndmcbd.org/pdfs/Euler_s_Totient_Theorem_and_Fermat_s_Little_Theorem.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1770020515/Euler_s_Totient_Theorem_and_Fermat_s_Little_Theorem___Copy__1_q83swx.jpg"
           },
           {
-            "id": 22,
+            "id": 23,
             "title": "Chinese Remainder Theorem",
             "author": "Mohammad Moaj Hossain",
             "pdfUrl": "https://ndmcbd.org/pdfs/Chinese%20Remainder%20Theorem.pdf",
             "thumbnail": "https://res.cloudinary.com/dyoqskwgq/image/upload/v1762020494/486758855_1088756906630148_7929915376536119426_n_f4whsx.jpg"
           },
           {
-            "id": 23,
+            "id": 24,
             "title": "Diophantine Equation",
             "author": "Mahir Faisal",
             "pdfUrl": "https://ndmcbd.org/pdfs/Diophantine%20Equation.pdf",
             "thumbnail": "https://res.cloudinary.com/dfliocqzs/image/upload/v1762024231/Diophantine_Equation-1_ujyhxf.jpg"
           },
           {
-              "id": 24,
+              "id": 25,
               "title": "Legendre's Formula",
               "author": "Tajrif Hasan Rafid",
               "pdfUrl": "https://ndmcbd.org/pdfs/Legendre_s%20Formula.pdf",
@@ -193,21 +200,21 @@
         "section": "Calculus",
         "articles": [
             {
-            "id": 25,
+            "id": 26,
             "title": "Limits",
             "author": "Muhammad Rakibul Alam",
             "pdfUrl": "https://ndmcbd.org/pdfs/Limits.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1770020515/Limits_1_iufw6a.jpg"  
             },
             {
-            "id": 26,
+            "id": 27,
             "title": "Integration Bee Handouts",
             "author": "Muhammad Rakibul Alam",
             "pdfUrl": "https://ndmcbd.org/pdfs/Integration_Bee_Handouts.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768832858/616834811_1439073364454142_3262686189477162883_n_hwpuxs.jpg"  
             },
           {
-            "id": 27,
+            "id": 28,
             "title": "Taylor Series of Cosine Function",
             "author": "Showmajit Saha",
             "pdfUrl": "https://ndmcbd.org/pdfs/Taylor%20Series%20of%20Cosine%20Function.pdf",
@@ -220,21 +227,21 @@
         "section": "Proof Techniques & Others",
         "articles": [
           {
-            "id": 28,
+            "id": 29,
             "title": "Earthquake: A Mathematical Analysis",
             "author": "Mohammad Sakib Shahriar",
             "pdfUrl": "https://ndmcbd.org/pdfs/Earthquakes.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1764406215/d9035248-db4e-4f49-8d8f-97373cfc30e8_bdllvw.jpg"
           },
             {
-            "id": 29,
+            "id": 30,
             "title": "From Conics to Cosmos",
             "author": "Tasdik Ahmed Tonmay",
             "pdfUrl": "https://ndmcbd.org/pdfs/From%20Conics%20to%20Cosmos.pdf",
             "thumbnail": "https://res.cloudinary.com/dyoqskwgq/image/upload/v1762020085/557788162_1251387677033736_5159359331897159127_n_pwtrlj.jpg"
           },
           {
-            "id": 30,
+            "id": 31,
             "title": "Induction",
             "author": "Md Jabir Hasan",
             "pdfUrl": "https://ndmcbd.org/pdfs/Induction.pdf",
@@ -246,14 +253,14 @@
         "section": "Weekly Session Handouts",
         "articles": [
           {
-            "id": 31,
+            "id": 32,
             "title": "Functional Equations",
             "author": "07/01/2026",
             "pdfUrl": "https://ndmcbd.org/pdfs/Session-Handouts-1.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768017561/28b1fda1-71f8-4301-bd18-df9bee2e1d09.png"
           },
           {
-            "id": 32,
+            "id": 33,
             "title": "Power of A Point",
             "author": "21/01/2026",
             "pdfUrl": "https://ndmcbd.org/pdfs/Power-of-A-Point-Session-Handouts.pdf",
