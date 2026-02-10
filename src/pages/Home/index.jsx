@@ -60,6 +60,7 @@ import {
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import SectorsSection from "./sectorsSection";
+import NMFPopup from "./NMFPopup";
 // import { Helmet } from "react-helmet-async";
 
 const Home = () => {
@@ -136,7 +137,7 @@ const Home = () => {
                 <StyledDescription
                   align="justify"
                   variant="body2"
-                  // style={{ textAlign: "justify" }}
+                // style={{ textAlign: "justify" }}
                 >
                   Welcome math-enthusiasts to the mathematical realm of NDC,
                   where perplexity meets rigour, and curious minds converge. You
@@ -162,9 +163,12 @@ const Home = () => {
       */}
               </Grid>
             </StyledGridContainer>
-{/*//POPUP
+            {/*//POPUP
+
             <Splash position={{ left: "-250px", top: 0 }} />
             <Splash position={{ right: "-250px", bottom: 0 }} />
+            <NMFPopup />
+
 
             {showFloatingScroll && (
         <FloatingScrollLink
@@ -194,7 +198,7 @@ const Home = () => {
               container
               columns={{ lg: 12, xs: 12, sm: 12 }}
               gap={"2rem"}
-              // center={"true"}
+            // center={"true"}
             >
               <Grid item lg={5} sm={12} xs={12} md={5}>
                 <FlexedResponsive breakpoint={"lg"} direction="column">
@@ -238,21 +242,21 @@ const Home = () => {
                         { title: "10K+", subtitle: "Members & Alumni" },
                       ].map((info, index) => (
                         <Grid
-                            key={index}
-                            item
-                            xs={12}
-                            md={2.4}
-                            data-aos="fade-up"
-                            data-aos-duration="2000"
-                            sx={{
-                              textAlign: "center",
-                              display: "flex",
-                              flexDirection: "column",
-                              alignItems: "center",
-                            }}
-                          >
-                            <AboutInfo title={info.title} subtitle={info.subtitle} />
-                          </Grid>
+                          key={index}
+                          item
+                          xs={12}
+                          md={2.4}
+                          data-aos="fade-up"
+                          data-aos-duration="2000"
+                          sx={{
+                            textAlign: "center",
+                            display: "flex",
+                            flexDirection: "column",
+                            alignItems: "center",
+                          }}
+                        >
+                          <AboutInfo title={info.title} subtitle={info.subtitle} />
+                        </Grid>
 
                       ))}
 

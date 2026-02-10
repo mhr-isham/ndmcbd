@@ -125,6 +125,26 @@ const Header = (props) => {
                   }
                   icon={appMode === "light" ? "sun" : "moon"}
                 />
+
+                <Button
+                  component="a"
+                  href="https://nmf.ndmcbd.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  variant="contained"
+                  sx={{
+                    ml: 1,
+                    background: 'linear-gradient(45deg, #FFD700 30%, #FF8E53 90%)',
+                    color: 'black',
+                    fontWeight: 'bold',
+                    boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+                    '&:hover': {
+                      background: 'linear-gradient(45deg, #FF8E53 30%, #FFD700 90%)',
+                    }
+                  }}
+                >
+                  6th NMF
+                </Button>
                 {/* NMF registration button and profile image 
                 <ShiningButton
                   variant="contained"
@@ -142,7 +162,7 @@ const Header = (props) => {
                 )}   
                  */ }
               </NavMenuContainer>
-             
+
             </StyledToolbar>
           </Container>
         </TopBar>
