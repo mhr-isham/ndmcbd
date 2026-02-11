@@ -43,12 +43,10 @@ import useEvents from "../../hooks/useEvents";
 import events from "../../store/atoms/eventsAtom";
 import FakeEvents from "../../components/ui/fakeEvents";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-// import required modules
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import usePageTitle from "../../hooks/usePageTitle";
 import {
@@ -167,7 +165,6 @@ const Home = () => {
 
             <Splash position={{ left: "-250px", top: 0 }} />
             <Splash position={{ right: "-250px", bottom: 0 }} />
-            <NMFPopup />
 
 
             {showFloatingScroll && (
@@ -440,6 +437,7 @@ const Home = () => {
           {/* Testimonial Section end */}
         </div>
       }
+      <NMFPopup />
     </div>
   );
 };
