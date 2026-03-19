@@ -74,7 +74,7 @@ const Footer = () => {
                 </StyledFooterLink>
               </li>
               <li>
-                <StyledFooterLink component={RouterLink} to={"/publication?tab=podcast"}>
+                <StyledFooterLink component={RouterLink} to={"/resources?tab=podcast"}>
                   Podcast
                 </StyledFooterLink>
               </li>
@@ -98,13 +98,12 @@ const Footer = () => {
             <h4>Resources</h4>
             <ul className="links">
             <li>
-                <StyledFooterLink component={RouterLink} to={"/publication?tab=articles"}>
+                <StyledFooterLink component={RouterLink} to={"/resources?tab=articles"}>
                   Articles
                 </StyledFooterLink>
               </li>
               <li>
-              <StyledFooterLink component={RouterLink} to={"/publication?tab=NDMC_questions"}>
-                  Problem Sets
+                <StyledFooterLink component={RouterLink} to={"/resources?tab=NDMC_questions"}>
                 </StyledFooterLink>
               </li>
 
