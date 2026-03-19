@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate, useLocation } from "react-router-dom";
 import Home from "../pages/Home";
 import About from "../pages/about";
 import Events from "../pages/events";
@@ -8,7 +8,7 @@ import Membership from "../pages/membership";
 import Contact from "../pages/contact";
 import CertificateValidation from "../pages/certificate-validation";
 import NotFound from "../pages/notFound";
-import Publication from "../pages/publication";
+import Resources from "../pages/resources";
 // import Login from "../pages/login";
 // import FestRegistration from "../pages/fest-registration";
 import DevelopersPage from "../pages/developers";
@@ -17,6 +17,11 @@ import DevelopersPage from "../pages/developers";
 // import CA from "../pages/type-registration/ca";
 // import Dashboard from "../pages/dashboard";
 // import TeamRegistration from "../pages/type-registration/team";
+
+function RedirectPublication() {
+  const location = useLocation();
+  return <Navigate to={`/resources${location.search}`} replace />;
+}
 
 const AppRouter = () => {
   return (
@@ -28,7 +33,8 @@ const AppRouter = () => {
       <Route path="/membership" element={<Membership />} />
       <Route path="/executives" element={<Executives />} />
       <Route path="/developers" element={<DevelopersPage />} />
-      <Route path="/publication" element={<Publication />} />
+      <Route path="/publication" element={<RedirectPublication />} />
+      <Route path="/resources" element={<Resources />} />
       <Route path="/certificate" element={<CertificateValidation />} />
       {/*<Route path="/nmf/register/:ca_ref" element={<Solo />} /> */}
       {/*<Route path="/nmf/ca" element={<CA />} /> */}

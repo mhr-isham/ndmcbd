@@ -43,12 +43,12 @@ function a11yProps(index) {
 }
 
 const tabMapping = {
-  podcast: 0,
-  articles: 1,
-  NDMC_questions: 2,
+  articles: 0,
+  podcast: 1,
+  NDMC_questions: 2, 
 };
 
-export default function Publication() {
+export default function Resources() {
   const [searchParams, setSearchParams] = useSearchParams();
   const tabParam = searchParams.get("tab");
   const initialTab = tabMapping[tabParam] !== undefined ? tabMapping[tabParam] : 0;
@@ -69,12 +69,12 @@ export default function Publication() {
   return (
     <Section style={{ display: "block" }}>
       <PageTitleContainer>
-        <SectionSubtitle>Publication</SectionSubtitle>
+        <SectionSubtitle>Resources</SectionSubtitle>
         <SectionTitle>Our Content</SectionTitle>
         <NdmcBreadcrumbs
           pagePath={[
             {
-              name: "Publication",
+              name: "Resources",
               active: true,
             },
           ]}
@@ -86,18 +86,19 @@ export default function Publication() {
             value={value}
             centered
             onChange={handleChange}
-            aria-label="publication tabs"
+            aria-label="Resources tabs"
           >
-            <Tab label="Podcast" {...a11yProps(0)} />
-            <Tab label="Articles" {...a11yProps(1)} />
+            <Tab label="Articles" {...a11yProps(0)} />
+            <Tab label="Podcast" {...a11yProps(1)} />
             <Tab label="NDMC Questions" {...a11yProps(2)} />
+            
           </Tabs>
         </Box>
         <CustomTabPanel value={value} index={0}>
-          <Podcast />
+          <Articles />
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
-          <Articles />
+          <Podcast />
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
           <NdmcQuestions />

@@ -40,7 +40,7 @@ const navItems = {
   // Home: "/",
   About: "/about",
   Events: "/events",
-  Publication: "/publication",
+  Resources: "/resources",
   Gallery: "/gallery",
   Executives: "/executives",
   // Membership: "/membership",
