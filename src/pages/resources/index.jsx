@@ -45,7 +45,7 @@ function a11yProps(index) {
 const tabMapping = {
   articles: 0,
   podcast: 1,
-  NDMC_questions: 2 
+  NDMC_questions: 2, 
 };
 
 export default function Resources() {
