@@ -160,7 +160,7 @@
             "thumbnail":"https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244194/homothety_jw5ouh.png"
           },
           {
-          "id": 29,
+          "id": 22,
           "title": "Tricks related to Ratios",
           "author": "Sazid Hasan",
           "pdfUrl": "https://ndmcbd.org/pdfs/Tricks-related-to-Ratios.pdf",
@@ -172,14 +172,14 @@
         "section": "Number Theory",
         "articles": [
           {
-            "id": 22,
+            "id": 23,
             "title": "Order and Primitive Roots",
             "author": "Abhradeep Saha",
             "pdfUrl": "https://ndmcbd.org/pdfs/Orders%20%26%20Primitive%20Roots.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774245528/primitiveroot_oxazdl.png"
           },
           {
-            "id": 23,
+            "id": 24,
             "title": "Divisibility",
             "author": "Akif Sami Malitha",
             "pdfUrl": "https://ndmcbd.org/pdfs/Divisibility.pdf",
@@ -219,7 +219,7 @@
       "section": "Algebra",
       "articles": [
         {
-            "id": 24,
+            "id": 29,
             "title": "Floor & Ceiling Function",
             "author": "Abhradeep Saha",
             "pdfUrl": "https://ndmcbd.org/pdfs/Floor%20%26%20Ceiling%20Function.pdf",
