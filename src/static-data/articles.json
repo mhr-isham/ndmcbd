@@ -4,13 +4,41 @@
       "articles": [
         {
           "id": 1,
+          "title": "General Problem Solving",
+          "author": "Tasdik Ahmed Tonmay",
+          "pdfUrl": "https://ndmcbd.org/pdfs/generalpsolving.pdf",
+          "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774683666/psolving_vc9t1t.png"
+        },
+        {
+          "id": 2,
+          "title": "Deduction",
+          "author": "Abhradeep Saha",
+          "pdfUrl": "https://ndmcbd.org/pdfs/Deduction.pdf",
+          "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774683666/deduction_lpdeis.png"
+        },
+        {
+          "id": 3,
+          "title": "Contradiction",
+          "author": "Tasdik Ahmed Tonmay",
+          "pdfUrl": "https://ndmcbd.org/pdfs/Contradiction.pdf",
+          "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774683666/contradiction_dw4tyx.png"
+        },
+        {
+          "id": 4,
           "title": "Induction",
           "author": "Md Jabir Hasan",
           "pdfUrl": "https://ndmcbd.org/pdfs/Induction.pdf",
           "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244194/induction_khh24g.png"
         },
         {
-          "id": 2,
+          "id": 5,
+          "title": "Strong Induction",
+          "author": "Tasdik Ahmed Tonmay",
+          "pdfUrl": "https://ndmcbd.org/pdfs/Strong%20Induction.pdf",
+          "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774683666/stronginduction_cvygs3.png"
+        },
+        {
+          "id": 6,
           "title": "Infinite Descent",
           "author": "Md Jabir Hasan",
           "pdfUrl": "https://ndmcbd.org/pdfs/Infinite-Descent.pdf",
@@ -22,98 +50,98 @@
       "section": "Combinatorics",
       "articles": [
         {
-          "id": 3,
+          "id": 7,
           "title": "Counting",
           "author": "Junaed Labeeb Al Waasi",
           "pdfUrl": "https://ndmcbd.org/pdfs/Counting.pdf",
           "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244192/counting_wa7745.png"
         },
         {
-          "id": 4,
+          "id": 8,
           "title": "Stars & Bars",
           "author": "Mahir Ahmed",
           "pdfUrl": "https://ndmcbd.org/pdfs/Starsandbars.pdf",
           "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244267/starsandbars_ofehvu.png"
         },
         {
-            "id": 5,
+            "id": 9,
             "title": "Double Counting",
             "author": "Showmajit Saha",
             "pdfUrl": "https://ndmcbd.org/pdfs/Double%20Counting.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244189/doublecounting_pcruqr.png"
           },
           {
-            "id": 6,
+            "id": 10,
             "title": "Pigeonhole Principal",
             "author": "Arafat Bin Boiduryo",
             "pdfUrl": "https://ndmcbd.org/pdfs/Pigeonhole%20Principal.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244239/pigeonhole_wjpypf.png"
           },
         {
-          "id": 7,
+          "id": 11,
           "title": "Extremal Principle",
           "author": "Md. Farhan Abrar Khan",
           "pdfUrl": "https://ndmcbd.org/pdfs/Extremal_principle.pdf",
           "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244191/extremal_tbjnvl.png"
         },
         {
-          "id": 8,
+          "id": 12,
           "title": "Combinatorial Coloring",
           "author": "Nabil Nahiyan, Junaed Labeeb Al Waasi",
           "pdfUrl": "https://ndmcbd.org/pdfs/Combinatorial_coloring.pdf",
           "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244192/colouring_b9kqtl.png"
         },
         {
-          "id": 9,
+          "id": 13,
           "title": "Invariance and Monovariance",
           "author": "Saifullah Khalid Saimun",
           "pdfUrl": "https://ndmcbd.org/pdfs/Invariance.pdf",
           "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244194/invariance_pihf5k.png"
         },
           {
-            "id": 10,
+            "id": 14,
             "title": "Graph Theory",
             "author": "Akif Sami Malitha",
             "pdfUrl": "https://ndmcbd.org/pdfs/Graph%20Theory.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244193/graph_mpk7kd.png"
           },
         {
-          "id": 11,
+          "id": 15,
           "title": "Combinatorial Games",
           "author": "Tasdik Ahmed Tonmay",
           "pdfUrl": "https://ndmcbd.org/pdfs/Combinatorial%20Games.pdf",
           "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244193/gametheory_msrrdt.png"
         },
           {
-            "id": 12,
+            "id": 16,
             "title": "Recurrence Relation",
             "author": "Mahir Faisal",
             "pdfUrl": "https://ndmcbd.org/pdfs/Recurrence%20Relation.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244247/recurrence_djx7ln.png"
           },
         {
-            "id": 13,
+            "id": 17,
             "title": "Generating Functions",
             "author": "Nabil Nahiyan",
             "pdfUrl": "https://ndmcbd.org/pdfs/Generating%20Functions.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244193/genfunction_urkatd.png"
         },
           {
-            "id": 14,
+            "id": 18,
             "title": "Probabilistic Method",
             "author": "Muntasir Mahmud Chowdhury",
              "pdfUrl": "https://ndmcbd.org/pdfs/Probabilistic%20Method.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244247/probability_gxeccd.png"
           },
         {
-          "id": 15,
+          "id": 19,
           "title": "Combinatorial Sequence",
           "author": "Snehashish Chowdhury",
           "pdfUrl": "https://ndmcbd.org/pdfs/Combinatorial%20Sequence.pdf",
           "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244248/sequence_hm3duu.png"
         },
         {
-          "id": 16,
+          "id": 20,
           "title": "Combinatorial Algorithm",
           "author": "Md. Fahim Ahammed",
           "pdfUrl": "https://ndmcbd.org/pdfs/Algorithms.pdf",
@@ -125,49 +153,49 @@
         "section": "Geometry",
         "articles": [
             {
-            "id": 17,
+            "id": 21,
             "title": "Projective Geometry",
             "author": "Samit Sayum Chowdhury",
             "pdfUrl": "https://ndmcbd.org/pdfs/Projective_Geo_kintu_tor_syllabus_shesh_hoise_-1.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244247/projective_vipk50.png"
           },
           {
-            "id": 18,
+            "id": 22,
             "title": "Inversive Geometry",
             "author": "Fahim Sadat",
             "pdfUrl": "https://ndmcbd.org/pdfs/Inversive_geometry.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244195/inversion_fv3y4l.png"
           },
           {
-            "id": 19,
+            "id": 23,
             "title": "Angle Chasing",
             "author": "Arafat Bin Boiduryo",
             "pdfUrl": "https://ndmcbd.org/pdfs/Angle%20Chasing.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244191/anglechasing_pq4ps4.png"
           },
           {
-            "id": 20,
+            "id": 24,
             "title": "Angles and Lengths",
             "author": "Samit Sayum Chowdhury",
             "pdfUrl": "https://ndmcbd.org/pdfs/Angles%20and%20Lengths.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244189/angleandlength_xhbwqs.png"
           },
           {
-            "id": 21,
+            "id": 25,
             "title": "Ceva's Theorem",
             "author": "Swapnil Mandal",
             "pdfUrl": "https://ndmcbd.org/pdfs/Ceva_s%20Theorem.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244190/ceva_b3l2l4.png"
           },
           {
-            "id": 22,
+            "id": 26,
             "title": "Homothety",
             "author": "Swapnil Mandal",
             "pdfUrl": "https://ndmcbd.org/pdfs/Homothety.pdf",
             "thumbnail":"https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244194/homothety_jw5ouh.png"
           },
           {
-          "id": 23,
+          "id": 27,
           "title": "Tricks related to Ratios",
           "author": "Sazid Hasan",
           "pdfUrl": "https://ndmcbd.org/pdfs/Tricks-related-to-Ratios.pdf",
@@ -179,42 +207,42 @@
         "section": "Number Theory",
         "articles": [
           {
-            "id": 24,
+            "id": 28,
             "title": "Order and Primitive Roots",
             "author": "Abhradeep Saha",
             "pdfUrl": "https://ndmcbd.org/pdfs/Orders%20%26%20Primitive%20Roots.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774245528/primitiveroot_oxazdl.png"
           },
           {
-            "id": 25,
+            "id": 29,
             "title": "Divisibility",
             "author": "Akif Sami Malitha",
             "pdfUrl": "https://ndmcbd.org/pdfs/Divisibility.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244189/divisibility_vel6pe.png"
           },
           {
-            "id": 26,
+            "id": 30,
             "title": "Euler's Totient Theorem and Fermat's Little Theorem",
             "author": "Md Raihan Tamzid",
             "pdfUrl": "https://ndmcbd.org/pdfs/Euler_s_Totient_Theorem_and_Fermat_s_Little_Theorem.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244191/eulertotient_j4u9tp.png"
           },
           {
-            "id": 27,
+            "id": 31,
             "title": "Chinese Remainder Theorem",
             "author": "Mohammad Moaj Hossain",
             "pdfUrl": "https://ndmcbd.org/pdfs/Chinese%20Remainder%20Theorem.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244191/chineseremainder_qsar2g.png"
           },
           {
-            "id": 28,
+            "id": 32,
             "title": "Diophantine Equation",
             "author": "Mahir Faisal",
             "pdfUrl": "https://ndmcbd.org/pdfs/Diophantine%20Equation.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244193/diophantine_vyznwp.png"
           },
           {
-            "id": 29,
+            "id": 33,
             "title": "Legendre's Formula",
             "author": "Tajrif Hasan Rafid",
             "pdfUrl": "https://ndmcbd.org/pdfs/Legendre_s%20Formula.pdf",
@@ -226,35 +254,35 @@
       "section": "Algebra",
       "articles": [
         {
-            "id": 30,
+            "id": 34,
             "title": "Floor & Ceiling Function",
             "author": "Abhradeep Saha",
             "pdfUrl": "https://ndmcbd.org/pdfs/Floor%20%26%20Ceiling%20Function.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244192/floorandceiling_jvt2gq.png"
         },
         {
-          "id": 31,
+          "id": 35,
           "title": "Functional Equations: Some Overkill Techniques",
           "author": "Md. Samiul Hasan Sami",
           "pdfUrl": "https://ndmcbd.org/pdfs/Functional-Equations-Some-Overkill-Techniques.pdf",
           "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244193/function2_ttotp2.png"
         },
         {
-          "id": 32,
+          "id": 36,
           "title": "Functional Equation",
           "author": "Showmajit Saha",
           "pdfUrl": "https://ndmcbd.org/pdfs/Functional%20Equation.pdf",
           "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244193/function1_pfkuir.png"
         },
         {
-            "id": 33,
+            "id": 37,
             "title": "Inequalities",
             "author": "Prithbiraj Mitra",
             "pdfUrl": "https://ndmcbd.org/pdfs/Inequalities.pdf",
             "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244194/inequality_hpfywa.png"
         },
         {  
-            "id": 34,
+            "id": 38,
             "title": "Sigma and Pi Notation",
             "author": "Abhradeep Saha",
             "pdfUrl": "https://ndmcbd.org/pdfs/Sigma%20and%20Pi%20Notation.pdf",
@@ -268,28 +296,28 @@
       "section": "Calculus",
       "articles": [
         {
-          "id": 35,
+          "id": 39,
           "title": "Basic Integration",
           "author": "Tawsif Rahman",
           "pdfUrl": "https://ndmcbd.org/pdfs/Basic-Integration.pdf",
           "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244194/integration_qa2lws.png"  
         },
         {
-          "id": 36,
+          "id": 40,
           "title": "Limits",
           "author": "Muhammad Rakibul Alam",
           "pdfUrl": "https://ndmcbd.org/pdfs/Limits.pdf",
           "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244195/limits_wahj3v.png"  
         },
         {
-          "id": 37,
+          "id": 41,
           "title": "Integration Bee Handouts",
           "author": "Muhammad Rakibul Alam",
           "pdfUrl": "https://ndmcbd.org/pdfs/Integration_Bee_Handouts.pdf",
           "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244194/intbee_uxll7m.png"  
         },
         {
-          "id": 38,
+          "id": 42,
           "title": "Taylor Series of Cosine Function",
           "author": "Showmajit Saha",
           "pdfUrl": "https://ndmcbd.org/pdfs/Taylor%20Series%20of%20Cosine%20Function.pdf",
@@ -302,14 +330,14 @@
       "section": "Others",
       "articles": [
         {
-          "id": 39,
+          "id": 43,
           "title": "Earthquake: A Mathematical Analysis",
           "author": "Mohammad Sakib Shahriar",
           "pdfUrl": "https://ndmcbd.org/pdfs/Earthquakes.pdf",
           "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1774244190/earthquake_mwwsm0.png"
         },
           {
-          "id": 40,
+          "id": 44,
           "title": "From Conics to Cosmos",
           "author": "Tasdik Ahmed Tonmay",
           "pdfUrl": "https://ndmcbd.org/pdfs/From%20Conics%20to%20Cosmos.pdf",
@@ -321,21 +349,21 @@
       "section": "Weekly Session Handouts",
       "articles": [
           {
-          "id": 41,
+          "id": 45,
           "title": "Hyperbolic Functions",
           "author": "25/02/2026",
           "pdfUrl": "https://ndmcbd.org/pdfs/NDMC_Session3-2.pdf",
           "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1773755672/687b11f9-d734-4902-a287-3cdf97e9c057.png"
         },
         {
-          "id": 42,
+          "id": 46,
           "title": "Functional Equations",
           "author": "07/01/2026",
           "pdfUrl": "https://ndmcbd.org/pdfs/Session-Handouts-1.pdf",
           "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768017561/28b1fda1-71f8-4301-bd18-df9bee2e1d09.png"
         },
         {
-          "id": 43,
+          "id": 47,
           "title": "Power of A Point",
           "author": "21/01/2026",
           "pdfUrl": "https://ndmcbd.org/pdfs/Power-of-A-Point-Session-Handouts.pdf",
