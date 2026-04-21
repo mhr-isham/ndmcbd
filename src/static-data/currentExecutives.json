@@ -44,14 +44,14 @@
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1770350334/2b4047a0-6093-44f2-a4bf-a27796163d50.png"
     },
     {
-      "post": "Proof (Head of Academics)",
+      "post": "Proof (Co-Head of Academics)",
       "department": "Academics",
       "name": "Akif Sami Malitha",
       "facebook": "https://www.facebook.com/61560512552863/",
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768576126/DSC_2882_ihixvd.jpg"
     },
     {
-      "post": "Proof (Executive of Academics)",
+      "post": "Proof (Co-Head of Academics)",
       "department": "Academics",
       "name": "Tasdik Ahmed Tonmay",
       "facebook": "https://www.facebook.com/share/1D7SzvzqLn/",
@@ -119,6 +119,20 @@
       "name": "Nabil Nahiyan",
       "facebook": "https://www.facebook.com/profile.php?id=61565464755527",
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768576233/DSC_2902_owvy2f.jpg"
+    },
+    {
+      "post": "Proof (Executive of Academics)",
+      "department": "Academics",
+      "name": "Jabir Hasan",
+      "facebook": "https://www.facebook.com/jabir.hasan.7965",
+      "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1776758441/c685bfe1-6271-44a7-9fde-5b394c93a3eb.png"
+    },
+    {
+      "post": "Proof (Executive of Academics)",
+      "department": "Academics",
+      "name": "Kazi Mahbub Uz Zaman",
+      "facebook": "https://www.facebook.com/kazi.mahbub.uz.zaman.2025",
+      "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1776758409/f7a2027b-f41c-4f94-a49e-a3c227376362.png"
     },
     {
       "post": "Graph (Head of Graphics)",
@@ -238,6 +252,13 @@
       "name": "Abdullah Al Jubayer",
       "facebook": "https://www.facebook.com/share/1BiFpT953B/",
       "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1768576284/DSC_2935_z3angj.jpg"
+    },
+    {
+      "post": "Field (Executive of Outreach)",
+      "department": "Outreach",
+      "name": "Wasif Akbar",
+      "facebook": "https://www.facebook.com/share/1CgP9t8fyN/",
+      "imgUrl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1776758449/Wasif_Akbar_th1nxc.png"
     },
     {
       "post": "Image (Head of Photography)",
