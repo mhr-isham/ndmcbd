@@ -5,7 +5,8 @@ import { Grid } from "@mui/material";
 
 export const AboutStyledBanner = styled.div`
   text-align: center;
-  height: 400px;
+  width: 100%;
+  aspect-ratio: 2540 / 700;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,8 +14,8 @@ export const AboutStyledBanner = styled.div`
   background: url(${bgImg});
 
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
+  background-size: contain;
+  background-position: center;
   background-color: #000;
   clip-path: ellipse(100% 55% at 48% 44%);
 `;

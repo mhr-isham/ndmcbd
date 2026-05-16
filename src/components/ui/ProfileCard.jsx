@@ -33,12 +33,18 @@ const ProfileCard = ({ img: imgUrl, name, post, fb, height, roll = "" }) => {
               />
 
               <ContentBox height={height}>
-                <Text design={{ size: "xxs", weight: "xBold" }}>{name}</Text>
+                <Text design={{ size: "xxs", weight: "xBold" }} style={{ fontSize: '0.9rem' }}>
+                  {name}
+                </Text>
                 {post && (
-                  <Text design={{ size: "xxs", weight: "light" }}>{post}</Text>
+                  <Text design={{ size: "xxs", weight: "light" }} style={{ fontSize: '0.8rem' }}>
+                    {post}
+                  </Text>
                 )}
                 {roll && (
-                  <Text design={{ size: "xxs", weight: "light" }}>#{roll}</Text>
+                  <Text design={{ size: "xxs", weight: "light" }} style={{ fontSize: '0.8rem' }}>
+                    #{roll}
+                  </Text>
                 )}
               </ContentBox>
             </CardFront>

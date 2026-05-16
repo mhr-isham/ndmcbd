@@ -104,6 +104,17 @@ const Footer = () => {
               </li>
               <li>
                 <StyledFooterLink component={RouterLink} to={"/resources?tab=NDMC_questions"}>
+                  NDMC Questions
+                </StyledFooterLink>
+              </li>
+              <li>
+                <StyledFooterLink component={RouterLink} to={"/resources?tab=magazines"}>
+                  Magazines
+                </StyledFooterLink>
+              </li>
+              <li>
+                <StyledFooterLink component={RouterLink} to={"/resources?tab=session"}>
+                  Session
                 </StyledFooterLink>
               </li>
 

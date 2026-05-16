@@ -135,3 +135,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+cloudinaryscrap/list-cloudinary-urls.cjs
+cloudinaryscrap/cloudinary-urls.txt
+cloudinaryscrap/cloudinary-urls.csv
