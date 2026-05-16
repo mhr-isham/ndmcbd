@@ -58,7 +58,7 @@ import {
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import SectorsSection from "./sectorsSection";
-import NMFPopup from "./NMFPopup";
+// import NMFPopup from "./NMFPopup";
 // import { Helmet } from "react-helmet-async";
 
 const Home = () => {
@@ -437,7 +437,7 @@ const Home = () => {
           {/* Testimonial Section end */}
         </div>
       }
-      <NMFPopup />
+      {/* <NMFPopup /> */}
     </div>
   );
 };

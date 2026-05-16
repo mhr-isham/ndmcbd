@@ -13,6 +13,8 @@ import { Section } from "../../components/styles/Page.style";
 import Podcast from "./podcast";
 import Articles from "./articles";
 import NdmcQuestions from "./ndmc-questions";
+import Session from "./session";
+import Magazines from "./magazines";
 import { useSearchParams } from "react-router-dom";
 
 function CustomTabPanel(props) {
@@ -46,6 +48,8 @@ const tabMapping = {
   articles: 0,
   podcast: 1,
   NDMC_questions: 2, 
+  session: 3,
+  magazines: 4,
 };
 
 export default function Resources() {
@@ -84,13 +88,22 @@ export default function Resources() {
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
           <Tabs
             value={value}
-            centered
+            variant="scrollable"
+            scrollButtons="auto"
+            allowScrollButtonsMobile
             onChange={handleChange}
             aria-label="Resources tabs"
+            sx={{
+              "& .MuiTabs-flexContainer": {
+                justifyContent: { sm: "center" },
+              },
+            }}
           >
             <Tab label="Articles" {...a11yProps(0)} />
             <Tab label="Podcast" {...a11yProps(1)} />
             <Tab label="NDMC Questions" {...a11yProps(2)} />
+            <Tab label="Session" {...a11yProps(3)} />
+            <Tab label="Magazines" {...a11yProps(4)} />
             
           </Tabs>
         </Box>
@@ -102,6 +115,12 @@ export default function Resources() {
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
           <NdmcQuestions />
+        </CustomTabPanel>
+        <CustomTabPanel value={value} index={3}>
+          <Session />
+        </CustomTabPanel>
+        <CustomTabPanel value={value} index={4}>
+          <Magazines />
         </CustomTabPanel>
       </Box>
     </Section>

@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Modal, Box } from "@mui/material";
+import { useSearchParams } from "react-router-dom";
+import { generateSlug, normalizeSearchText } from "../../utils/slugify";
+import { Modal, Box, TextField, InputAdornment, Button } from "@mui/material";
 import podcastsData from "../../static-data/podcasts.json";
+import SearchIcon from "@mui/icons-material/Search";
 
 const modalStyle = {
   position: "absolute",
@@ -16,10 +19,13 @@ const modalStyle = {
 };
 
 const Podcast = () => {
+  const [searchParams, setSearchParams] = useSearchParams();
   const [open, setOpen] = useState(false);
   const [selectedVideo, setSelectedVideo] = useState(null);
   const [isMobile, setIsMobile] = useState(false);
   const [hoveredId, setHoveredId] = useState(null);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [appliedSearchQuery, setAppliedSearchQuery] = useState("");
 
   useEffect(() => {
     const checkMobile = () => setIsMobile(window.innerWidth < 768);
@@ -28,19 +34,77 @@ const Podcast = () => {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
-  const handleOpen = (videoId) => {
-    setSelectedVideo(videoId);
+  useEffect(() => {
+    const itemId = searchParams.get("item");
+    if (itemId) {
+      const podcast = podcastsData.find(p => generateSlug(p.title) === itemId);
+      if (podcast && podcast.videoId !== selectedVideo) {
+        setSelectedVideo(podcast.videoId);
+        setOpen(true);
+      }
+    } else if (!itemId && open) {
+      setOpen(false);
+      setSelectedVideo(null);
+    }
+  }, [searchParams]);
+
+  const handleOpen = (podcast) => {
+    searchParams.set("item", generateSlug(podcast.title));
+    setSearchParams(searchParams);
+    setSelectedVideo(podcast.videoId);
     setOpen(true);
   };
 
   const handleClose = () => {
+    searchParams.delete("item");
+    setSearchParams(searchParams);
     setOpen(false);
     setSelectedVideo(null);
   };
 
+  const keywords = appliedSearchQuery
+    .split(" ")
+    .map((k) => normalizeSearchText(k))
+    .filter((k) => k !== "");
+
+  const filteredPodcasts = podcastsData.filter((podcast) => {
+    if (keywords.length === 0) return true;
+    const combinedText = normalizeSearchText(`${podcast.title || ""} ${podcast.guest || ""} ${podcast.host || ""}`);
+    return keywords.every((kw) => combinedText.includes(kw));
+  });
+
   return (
     <div style={{ marginTop: "20px", fontFamily: "'Outfit', system-ui, sans-serif" }}>
-      {podcastsData.map((podcast) => (
+      <Box sx={{ mb: 2 }}>
+        <Box sx={{ display: 'flex', gap: 1, width: '100%', maxWidth: { xs: '100%', sm: '500px' } }}>
+          <TextField
+            variant="outlined"
+            placeholder="Search podcasts..."
+            size="small"
+            value={searchQuery}
+            onChange={(e) => {
+              setSearchQuery(e.target.value);
+              if (e.target.value.trim() === '') {
+                setAppliedSearchQuery('');
+              }
+            }}
+            onKeyDown={(e) => { if (e.key === 'Enter') setAppliedSearchQuery(searchQuery); }}
+            InputProps={{
+              startAdornment: (
+                <InputAdornment position="start">
+                  <SearchIcon fontSize="small" />
+                </InputAdornment>
+              ),
+            }}
+            sx={{ flexGrow: 1, bgcolor: 'background.paper', borderRadius: 1 }}
+          />
+          <Button variant="contained" onClick={() => setAppliedSearchQuery(searchQuery)}>
+            Search
+          </Button>
+        </Box>
+      </Box>
+
+      {filteredPodcasts.map((podcast) => (
         <div
           key={podcast.id}
           style={{
@@ -56,7 +120,7 @@ const Podcast = () => {
             overflow: isMobile ? "hidden" : "visible",
             backgroundColor: hoveredId === podcast.id ? "#f5f5f5" : "transparent",
           }}
-          onClick={() => handleOpen(podcast.videoId)}
+          onClick={() => handleOpen(podcast)}
           onMouseEnter={() => setHoveredId(podcast.id)}
           onMouseLeave={() => setHoveredId(null)}
           onTouchStart={() => setHoveredId(podcast.id)}
