@@ -306,12 +306,15 @@ const Articles = () => {
             size="small"
             value={searchQuery}
             onChange={(e) => {
-              setSearchQuery(e.target.value);
-              if (e.target.value.trim() === '') {
-                setAppliedSearchQuery('');
+              const val = e.target.value;
+              setSearchQuery(val);
+              const trimmed = val.trim();
+              if (trimmed.length >= 3) {
+                setAppliedSearchQuery(trimmed);
+              } else {
+                setAppliedSearchQuery("");
               }
             }}
-            onKeyDown={(e) => { if (e.key === 'Enter') setAppliedSearchQuery(searchQuery); }}
             InputProps={{
               startAdornment: (
                 <InputAdornment position="start">
@@ -321,9 +324,6 @@ const Articles = () => {
             }}
             sx={{ flexGrow: 1, bgcolor: 'background.paper', borderRadius: 1 }}
           />
-          <Button variant="contained" onClick={() => setAppliedSearchQuery(searchQuery)}>
-            Search
-          </Button>
         </Box>
         <ToggleButtonGroup
           value={viewMode}

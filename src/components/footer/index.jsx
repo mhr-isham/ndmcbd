@@ -103,8 +103,8 @@ const Footer = () => {
                 </StyledFooterLink>
               </li>
               <li>
-                <StyledFooterLink component={RouterLink} to={"/resources?tab=NDMC_questions"}>
-                  NDMC Questions
+                <StyledFooterLink component={RouterLink} to={"/resources?tab=PYQs"}>
+                  Previous Year Questions
                 </StyledFooterLink>
               </li>
               <li>

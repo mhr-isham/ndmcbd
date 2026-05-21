@@ -27,7 +27,7 @@ const CurrentExecutives = () => {
     <div container gap={"1rem"}>
       <SessionBox>
       <Text design={{ size: "lsm", weight: "xBold" }}>
-      {`${executives.session}-${executives.session + 1}`}
+      {`${executives.session+1}-${executives.session}`}
     </Text>
         <Splash position={{ left: 0, top: 0 }} size={0.3} />
       </SessionBox>

@@ -577,132 +577,138 @@
       },
       {
         "id": 94,
+        "title": "Calculus Mania - Higher Secondary (Solutions)",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/CalculusMania_Solve.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Calculus_Mania_-_Higher_Secondary_xz2ekg"
+      },
+      {
+        "id": 95,
         "title": "Crosswords - Junior",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Junior_Cross.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Crosswords_-_Junior_x9momr"
       },
       {
-        "id": 95,
+        "id": 96,
         "title": "Crosswords - Secondary",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Secondary_Cross.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Crosswords_-_Secondary_nwh5n8"
       },
       {
-        "id": 96,
+        "id": 97,
         "title": "Crosswords - Higher Secondary",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Higher_Secondary_Cross.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Crosswords_-_Higher_Secondary_zu14m3"
       },
       {
-        "id": 97,
+        "id": 98,
         "title": "IQ Olympiad - Junior",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Junior_IQ.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_IQ_Olympiad_-_Junior_ly1uk3"
       },
       {
-        "id": 98,
+        "id": 99,
         "title": "IQ Olympiad - Secondary",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Secondary_IQ.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_IQ_Olympiad_-_Secondary_zg3avr"
       },
       {
-        "id": 99,
+        "id": 100,
         "title": "IQ Olympiad - Higher Secondary",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Higher_Secondary_IQ.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_IQ_Olympiad_-_Higher_Secondary_ej38qw"
       },
       {
-        "id": 100,
+        "id": 101,
         "title": "Killer Sudoku - Junior",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Junior_Killer_Sudoku.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Killer_Sudoku_-_Junior_ww1ioa"
       },
       {
-        "id": 101,
+        "id": 102,
         "title": "Killer Sudoku - Secondary",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Secondary_Killer_Sudoku.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Killer_Sudoku_-_Secondary_gvgwge"
       },
       {
-        "id": 102,
+        "id": 103,
         "title": "Killer Sudoku - Higher Secondary",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Higher_Secondary_Killer_Sudoku.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Killer_Sudoku_-_Higher_Secondary_lt7icd"
       },
       {
-        "id": 103,
+        "id": 104,
         "title": "Math History Quiz - Secondary",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Secondary_History.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Math_History_Quiz_-_Secondary_grj6wq"
       },
       {
-        "id": 104,
+        "id": 105,
         "title": "Math History Quiz - Higher Secondary",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Higher_Secondary_History.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Math_History_Quiz_-_Higher_Secondary_pemkgr"
       },
       {
-        "id": 105,
+        "id": 106,
         "title": "Math Olympiad - Junior",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Junior_Math.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Math_Olympiad_-_Junior_be8ume"
       },
       {
-        "id": 106,
+        "id": 107,
         "title": "Math Olympiad - Secondary",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Secondary_Math.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Math_Olympiad_-_Secondary_lexejn"
       },
       {
-        "id": 107,
+        "id": 108,
         "title": "Math Olympiad - Higher Secondary",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Higher_Secondary_Math.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Math_Olympiad_-_Higher_Secondary_x8kcqw"
       },
       {
-        "id": 108,
+        "id": 109,
         "title": "Math Relay - Junior",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Junior_Relay.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Math_Relay_-_Junior_me5tjy"
       },
       {
-        "id": 109,
+        "id": 110,
         "title": "Math Relay - Secondary",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Secondary_Relay.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Math_Relay_-_Secondary_p4rv7j"
       },
       {
-        "id": 110,
+        "id": 111,
         "title": "Math Relay - Higher Secondary",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Higher_Secondary_Relay.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Math_Relay_-_Higher_Secondary_moalsm"
       },
       {
-        "id": 111,
+        "id": 112,
         "title": "Navigating the Way - Secondary",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Secondary_Navigate.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Navigating_the_Way_-_Secondary_ljdcar"
       },
       {
-        "id": 112,
+        "id": 113,
         "title": "Navigating the Way - Higher Secondary",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Higher_Secondary_Navigate.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Navigating_the_Way_-_Higher_Secondary_vgtxg2"
       },
       {
-        "id": 113,
+        "id": 114,
         "title": "Sudoku - Junior",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Junior_Sudoku.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Sudoku_-_Junior_hmktm6"
       },
       {
-        "id": 114,
+        "id": 115,
         "title": "Sudoku - Secondary",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Secondary_Sudoku.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Sudoku_-_Secondary_nfybfq"
       },
       {
-        "id": 115,
+        "id": 116,
         "title": "Sudoku - Higher Secondary",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/NMF/3rd/Copy of Higher_Secondary_Sudoku.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/_Sudoku_-_Higher_Secondary_h8eyvw"
@@ -713,22 +719,80 @@
     "section": "Intra Math Festival",
     "questions": [
       {
-        "id": 116,
+        "id": 117,
         "title": "Intra Find Based (Batch 27, Fall Edition)",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/Intra/Intra_Find_Based(Batch_27_Fall_Edition).pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/fall_27_find_uyd1yf"
       },
       {
-        "id": 117,
+        "id": 118,
         "title": "Intra Find+Proof (Batch 26, Summer Edition)",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/Intra/Intra_Find_and_Proof(Batch 26_Summer_Edition).pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/summer_26_vpnjq8"
       },
       {
-        "id": 118,
+        "id": 119,
         "title": "Intra Proof Based (Batch 27, Fall Edition)",
         "pdfUrl": "https://ndmcbd.org/pdfs/Questions/Intra/Intra_Proof_Based(Batch 27_Fall_Edition).pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/proof_27_fall_sfsyk4"
+      }
+    ]
+  },
+  {
+    "section": "Academic Master",
+    "questions": [
+      {
+        "id": 120,
+        "title": "National Academic Master Season 1 - Final Round",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Questions/AM/amnfinalss1.pdf",
+        "thumbnail": ""
+      },
+      {
+        "id": 121,
+        "title": "National Academic Master Season 1 - Preliminary Round",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Questions/AM/amnprelis1.pdf",
+        "thumbnail": ""
+      },
+      {
+        "id": 122,
+        "title": "Academic Master Season 2 - Final Round",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Questions/AM/amfinalss2.pdf",
+        "thumbnail": ""
+      },
+      {
+        "id": 123,
+        "title": "Academic Master Season 2 - Preliminary Round",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Questions/AM/amprelis2.pdf",
+        "thumbnail": ""
+      },
+      {
+        "id": 124,
+        "title": "Academic Master Season 1 - Final Round",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Questions/AM/amfinalss1.pdf",
+        "thumbnail": ""
+      },
+      {
+        "id": 125,
+        "title": "Academic Master Season 1 - Preliminary Round",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Questions/AM/amprelis1.pdf",
+        "thumbnail": ""
+      }
+    ]
+  },
+  {
+    "section": "Collaboration & Partnership",
+    "questions": [
+      {
+        "id": 126,
+        "title": "16th NNS Green Quotient - Higher Secondary",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Questions/Collab/16NNSGreen_Quotient_Higher_Secondary.pdf",
+        "thumbnail": ""
+      },
+      {
+        "id": 127,
+        "title": "16th NNS Green Quotient - Secondary",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Questions/Collab/16NNSGreen_Quotient_Secondary.pdf",
+        "thumbnail": ""
       }
     ]
   }

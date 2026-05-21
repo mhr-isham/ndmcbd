@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import { generateSlug, normalizeSearchText } from "../../utils/slugify";
 import { Box, Typography, Grid, Modal, Collapse, TextField, InputAdornment, Button } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import questionsData from "../../static-data/ndmc-questions.json";
+import questionsData from "../../static-data/pyqs.json";
 import ViewModuleIcon from "@mui/icons-material/ViewModule";
 import ViewListIcon from "@mui/icons-material/ViewList";
 import SearchIcon from "@mui/icons-material/Search";
@@ -108,7 +108,7 @@ const CloseButton = styled("button")(({ theme }) => ({
   },
 }));
 
-const NdmcQuestions = () => {
+const PYQs = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [open, setOpen] = useState(false);
   const [selectedPdf, setSelectedPdf] = useState(null);
@@ -176,7 +176,7 @@ const NdmcQuestions = () => {
     const flatQuestions = questionsData.flatMap(section => section.questions).filter(isMatch);
     
     if (flatQuestions.length === 0) {
-      contentToRender = <Typography sx={{ mt: 4, textAlign: 'center' }}>No questions found.</Typography>;
+      contentToRender = <Typography sx={{ mt: 4, textAlign: 'center' }}>No previous year question found.</Typography>;
     } else {
       contentToRender = (
         <Box sx={{ mt: 2 }}>
@@ -282,16 +282,19 @@ const NdmcQuestions = () => {
         <Box sx={{ display: 'flex', flexGrow: 1, gap: 1, maxWidth: { xs: '100%', sm: '500px' } }}>
           <TextField
             variant="outlined"
-            placeholder="Search questions..."
+            placeholder="Search previous year questions..."
             size="small"
             value={searchQuery}
             onChange={(e) => {
-              setSearchQuery(e.target.value);
-              if (e.target.value.trim() === '') {
-                setAppliedSearchQuery('');
+              const val = e.target.value;
+              setSearchQuery(val);
+              const trimmed = val.trim();
+              if (trimmed.length >= 3) {
+                setAppliedSearchQuery(trimmed);
+              } else {
+                setAppliedSearchQuery("");
               }
             }}
-            onKeyDown={(e) => { if (e.key === 'Enter') setAppliedSearchQuery(searchQuery); }}
             InputProps={{
               startAdornment: (
                 <InputAdornment position="start">
@@ -301,9 +304,6 @@ const NdmcQuestions = () => {
             }}
             sx={{ flexGrow: 1, bgcolor: 'background.paper', borderRadius: 1 }}
           />
-          <Button variant="contained" onClick={() => setAppliedSearchQuery(searchQuery)}>
-            Search
-          </Button>
         </Box>
         <ToggleButtonGroup
           value={viewMode}
@@ -346,4 +346,4 @@ const NdmcQuestions = () => {
   );
 };
 
-export default NdmcQuestions;
+export default PYQs;

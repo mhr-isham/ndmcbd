@@ -26,7 +26,7 @@ const ArticleCard = styled(Box)(({ theme }) => ({
   cursor: "pointer",
   borderRadius: "12px",
   overflow: "hidden",
-  border: `1px solid ${theme.palette.mode === 'dark' ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)'}`,
+  border: "2px solid #ffffff",
   transition: "all 0.3s ease",
   "&:hover": {
     transform: "translateY(-5px)",
@@ -314,11 +314,14 @@ const Magazines = () => {
             size="small"
             value={searchQuery}
             onChange={(e) => {
-              setSearchQuery(e.target.value);
-              if (e.target.value.trim() === "") setAppliedSearchQuery("");
-            }}
-            onKeyDown={(e) => {
-              if (e.key === "Enter") setAppliedSearchQuery(searchQuery);
+              const val = e.target.value;
+              setSearchQuery(val);
+              const trimmed = val.trim();
+              if (trimmed.length >= 3) {
+                setAppliedSearchQuery(trimmed);
+              } else {
+                setAppliedSearchQuery("");
+              }
             }}
             InputProps={{
               startAdornment: (
@@ -329,9 +332,6 @@ const Magazines = () => {
             }}
             sx={{ flexGrow: 1, bgcolor: "background.paper", borderRadius: 1 }}
           />
-          <Button variant="contained" onClick={() => setAppliedSearchQuery(searchQuery)}>
-            Search
-          </Button>
         </Box>
         <ToggleButtonGroup
           value={viewMode}

@@ -59,7 +59,7 @@ const Events = () => {
                 lg={3.5}
                 // xl={2.5}
                 data-aos="zoom-in-up"
-                data-aos-offset={300}
+                data-aos-offset={100}
                 data-aos-easing="ease-in-sine"
                 style={{
                   display: "flex",
