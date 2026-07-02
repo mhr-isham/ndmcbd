@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Modal, Box, Typography, TextField, InputAdornment, Button, Stack } from "@mui/material";
-import { styled } from "@mui/material/styles";
+import { styled, useTheme } from "@mui/material/styles";
 import { useSearchParams } from "react-router-dom";
 import { generateSlug, normalizeSearchText } from "../../utils/slugify";
 import sessionData from "../../static-data/session.json";
 import SearchIcon from "@mui/icons-material/Search";
+import usePageTitle from "../../hooks/usePageTitle";
 
 const modalStyle = {
   position: "absolute",
@@ -40,6 +41,8 @@ const CloseButton = styled("button")(({ theme }) => ({
 }));
 
 const Session = () => {
+  usePageTitle("Sessions");
+  const theme = useTheme();
   const [searchParams, setSearchParams] = useSearchParams();
   const [openVideo, setOpenVideo] = useState(false);
   const [openPdf, setOpenPdf] = useState(false);
@@ -131,11 +134,14 @@ const Session = () => {
             size="small"
             value={searchQuery}
             onChange={(e) => {
-              setSearchQuery(e.target.value);
-              if (e.target.value.trim() === "") setAppliedSearchQuery("");
-            }}
-            onKeyDown={(e) => {
-              if (e.key === "Enter") setAppliedSearchQuery(searchQuery);
+              const val = e.target.value;
+              setSearchQuery(val);
+              const trimmed = val.trim();
+              if (trimmed.length >= 3) {
+                setAppliedSearchQuery(trimmed);
+              } else {
+                setAppliedSearchQuery("");
+              }
             }}
             InputProps={{
               startAdornment: (
@@ -146,9 +152,6 @@ const Session = () => {
             }}
             sx={{ flexGrow: 1, bgcolor: "background.paper", borderRadius: 1 }}
           />
-          <Button variant="contained" onClick={() => setAppliedSearchQuery(searchQuery)}>
-            Search
-          </Button>
         </Box>
       </Box>
 
@@ -166,7 +169,7 @@ const Session = () => {
             border: "1px solid #ddd",
             transition: "background-color 0.3s ease",
             overflow: isMobile ? "hidden" : "visible",
-            backgroundColor: hoveredId === session.id ? "#f5f5f5" : "transparent",
+            backgroundColor: hoveredId === session.id ? theme.palette.action.hover : "transparent",
           }}
           onMouseEnter={() => setHoveredId(session.id)}
           onMouseLeave={() => setHoveredId(null)}
@@ -187,7 +190,7 @@ const Session = () => {
             }}
           />
           <div style={{ display: "flex", flexDirection: "column", textAlign: isMobile ? "center" : "left", overflow: isMobile ? "hidden" : "visible", flexGrow: 1 }}>
-            <h3 style={{ margin: 0, fontSize: "clamp(18px, 4vw, 20px)", fontWeight: "normal", color: hoveredId === session.id ? "black" : "inherit", ...(isMobile ? { display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden", width: "100%" } : {}) }}>
+            <h3 style={{ margin: 0, fontSize: "clamp(18px, 4vw, 20px)", fontWeight: "normal", color: "inherit", ...(isMobile ? { display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden", width: "100%" } : {}) }}>
               {session.title}
             </h3>
             {session.author && (

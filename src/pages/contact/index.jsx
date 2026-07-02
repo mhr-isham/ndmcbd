@@ -71,8 +71,8 @@ const Contact = () => {
     }
   };
   return (
-    <Section style={{ display: "block" }}>
-      <PageTitleContainer>
+    <Section style={{ display: "block", padding: "20px 0px" }}>
+      <PageTitleContainer style={{ marginBottom: "30px" }}>
         <SectionSubtitle>Contact</SectionSubtitle>
         <SectionTitle>Get in touch</SectionTitle>
         <NdmcBreadcrumbs

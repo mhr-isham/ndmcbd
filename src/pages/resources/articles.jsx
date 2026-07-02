@@ -10,6 +10,7 @@ import ViewListIcon from "@mui/icons-material/ViewList";
 import SearchIcon from "@mui/icons-material/Search";
 import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
+import usePageTitle from "../../hooks/usePageTitle";
 
 const SectionContainer = styled(Box)(({ theme }) => ({
   marginBottom: "1.5rem",
@@ -119,6 +120,7 @@ const CloseButton = styled("button")(({ theme }) => ({
 }));
 
 const Articles = () => {
+  usePageTitle("Articles");
   const [searchParams, setSearchParams] = useSearchParams();
   const [open, setOpen] = useState(false);
   const [selectedPdf, setSelectedPdf] = useState(null);
@@ -306,12 +308,15 @@ const Articles = () => {
             size="small"
             value={searchQuery}
             onChange={(e) => {
-              setSearchQuery(e.target.value);
-              if (e.target.value.trim() === '') {
-                setAppliedSearchQuery('');
+              const val = e.target.value;
+              setSearchQuery(val);
+              const trimmed = val.trim();
+              if (trimmed.length >= 3) {
+                setAppliedSearchQuery(trimmed);
+              } else {
+                setAppliedSearchQuery("");
               }
             }}
-            onKeyDown={(e) => { if (e.key === 'Enter') setAppliedSearchQuery(searchQuery); }}
             InputProps={{
               startAdornment: (
                 <InputAdornment position="start">
@@ -321,9 +326,6 @@ const Articles = () => {
             }}
             sx={{ flexGrow: 1, bgcolor: 'background.paper', borderRadius: 1 }}
           />
-          <Button variant="contained" onClick={() => setAppliedSearchQuery(searchQuery)}>
-            Search
-          </Button>
         </Box>
         <ToggleButtonGroup
           value={viewMode}

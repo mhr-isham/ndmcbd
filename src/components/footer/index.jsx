@@ -95,16 +95,16 @@ const Footer = () => {
           </div>
 
           <div className="footer-col">
-            <h4>Resources</h4>
+            <h4>Our Resources</h4>
             <ul className="links">
-            <li>
+              <li>
                 <StyledFooterLink component={RouterLink} to={"/resources?tab=articles"}>
                   Articles
                 </StyledFooterLink>
               </li>
               <li>
-                <StyledFooterLink component={RouterLink} to={"/resources?tab=NDMC_questions"}>
-                  NDMC Questions
+                <StyledFooterLink component={RouterLink} to={"/resources?tab=PYQs"}>
+                  Previous Year Questions
                 </StyledFooterLink>
               </li>
               <li>
@@ -117,7 +117,12 @@ const Footer = () => {
                   Session
                 </StyledFooterLink>
               </li>
+            </ul>
+          </div>
 
+          <div className="footer-col">
+            <h4>Other Resources</h4>
+            <ul className="links">
               <li>
                 <StyledFooterLink
                   href="https://matholympiad.org.bd/math-related-book-list"

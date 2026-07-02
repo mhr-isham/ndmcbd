@@ -10,8 +10,8 @@ import usePageTitle from "../../hooks/usePageTitle";
 const Gallery = () => {
   usePageTitle("Gallery");
   return (
-    <div>
-      <PageTitleContainer>
+    <div style={{ paddingTop: "20px" }}>
+      <PageTitleContainer style={{ marginBottom: "30px" }}>
         <SectionSubtitle>Gallery</SectionSubtitle>
         <SectionTitle>Math Club Moments in Pictures</SectionTitle>
         <NdmcBreadcrumbs pagePath={[{ name: "Gallery", active: true }]} />

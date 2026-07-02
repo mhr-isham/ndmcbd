@@ -4,17 +4,38 @@
     "articles": [
       {
         "id": 1,
-        "title": "The Function 4th Edition",
-        "publishyear": "2023-2024",
-        "pdfurl": "https://ndmcbd.org/pdfs/Magazines/TheFunction23-24.pdf",
-        "imgurl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1778919591/4thfront_dns7sk"
+        "title": "The Function | 6th Edition",
+        "publishyear": "2025-2026",
+        "pdfurl": "https://ndmcbd.org/pdfs/Magazines/TheFunction25-26.pdf",
+        "imgurl": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_1200/6thFunction_page1_njrsub"
       },
       {
         "id": 2,
-        "title": "The Function 3rd Edition",
+        "title": "The Function | 5th Edition",
+        "publishyear": "2024-2025",
+        "pdfurl": "https://ndmcbd.org/pdfs/Magazines/TheFunction24-25.pdf",
+        "imgurl": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_1000/5thFunction_page1_enmb1n"
+      },
+      {
+        "id": 3,
+        "title": "The Function | 4th Edition",
+        "publishyear": "2023-2024",
+        "pdfurl": "https://ndmcbd.org/pdfs/Magazines/TheFunction23-24.pdf",
+        "imgurl": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1778919591/4thfront_dns7sk"
+      },
+      {
+        "id": 4,
+        "title": "The Function | 3rd Edition",
         "publishyear": "2020-2022",
         "pdfurl": "https://ndmcbd.org/pdfs/Magazines/TheFunction22-23.pdf",
-        "imgurl": "https://res.cloudinary.com/dh4j8hdty/image/upload/v1778919591/3rd_front_i7hszd.png"
+        "imgurl": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1778919591/3rd_front_i7hszd.png"
+      },
+      {
+        "id": 4,
+        "title": "The Function | 2nd Edition",
+        "publishyear": "2018-2019",
+        "pdfurl": "https://ndmcbd.org/pdfs/Magazines/TheFunction18-19.pdf",
+        "imgurl": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/2ndfront_zks5z1.jpg"
       }
     ]
   }

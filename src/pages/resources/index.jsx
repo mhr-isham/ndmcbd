@@ -12,7 +12,7 @@ import Box from "@mui/material/Box";
 import { Section } from "../../components/styles/Page.style";
 import Podcast from "./podcast";
 import Articles from "./articles";
-import NdmcQuestions from "./ndmc-questions";
+import PYQs from "./pyqs";
 import Session from "./session";
 import Magazines from "./magazines";
 import { useSearchParams } from "react-router-dom";
@@ -47,7 +47,7 @@ function a11yProps(index) {
 const tabMapping = {
   articles: 0,
   podcast: 1,
-  NDMC_questions: 2, 
+  PYQs: 2, 
   session: 3,
   magazines: 4,
 };
@@ -71,8 +71,8 @@ export default function Resources() {
   };
 
   return (
-    <Section style={{ display: "block" }}>
-      <PageTitleContainer>
+    <Section style={{ display: "block", padding: "20px 0px" }}>
+      <PageTitleContainer style={{ marginBottom: "30px" }}>
         <SectionSubtitle>Resources</SectionSubtitle>
         <SectionTitle>Our Content</SectionTitle>
         <NdmcBreadcrumbs
@@ -101,8 +101,8 @@ export default function Resources() {
           >
             <Tab label="Articles" {...a11yProps(0)} />
             <Tab label="Podcast" {...a11yProps(1)} />
-            <Tab label="NDMC Questions" {...a11yProps(2)} />
-            <Tab label="Session" {...a11yProps(3)} />
+            <Tab label="PYQs" {...a11yProps(2)} />
+            <Tab label="Sessions" {...a11yProps(3)} />
             <Tab label="Magazines" {...a11yProps(4)} />
             
           </Tabs>
@@ -114,7 +114,7 @@ export default function Resources() {
           <Podcast />
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
-          <NdmcQuestions />
+          <PYQs />
         </CustomTabPanel>
         <CustomTabPanel value={value} index={3}>
           <Session />
