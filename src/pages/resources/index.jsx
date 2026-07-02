@@ -71,8 +71,8 @@ export default function Resources() {
   };
 
   return (
-    <Section style={{ display: "block" }}>
-      <PageTitleContainer>
+    <Section style={{ display: "block", padding: "20px 0px" }}>
+      <PageTitleContainer style={{ marginBottom: "30px" }}>
         <SectionSubtitle>Resources</SectionSubtitle>
         <SectionTitle>Our Content</SectionTitle>
         <NdmcBreadcrumbs

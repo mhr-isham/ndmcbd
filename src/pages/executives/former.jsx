@@ -67,7 +67,7 @@ const FormerExecutives = () => {
     <Box sx={{ width: '100%', mt: 4, px: { xs: 1, sm: 2 } }}>
       <TimelineContainer>
         {executives.map((executiveObject, index) => {
-          const yearStr = `${parseInt(executiveObject.session)+1}-${parseInt(executiveObject.session)}`;
+          const yearStr = `${parseInt(executiveObject.session)}-${parseInt(executiveObject.session)+1}`;
           return (
             <YearButton
               key={index}

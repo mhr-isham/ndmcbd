@@ -1034,47 +1034,55 @@
         "post": "Hypothesis",
         "department": "Administration & Planning",
         "name": "Anindya Kishore Choudhury",
+        "facebook": "https://www.facebook.com/anindyakishore.choudhury",
         "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_auto,f_auto,w_800/v1696866804/6b9fb7724bc4ea84278422a2f49f4bec.jpg"
       },
       {
         "post": "Graphing",
         "department": "Publications",
-        "name": "Md. Ashrafur Rahman Khan"
+        "name": "Md. Ashrafur Rahman Khan",
+        "facebook": "https://www.facebook.com/ashrafur.khan.37"
       },
       {
         "post": "Projection",
         "department": "Graphics & Designing",
         "name": "Wasif Jalal",
+        "facebook": "https://www.facebook.com/w.j.galib",
         "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_auto,f_auto,w_800/v1696866854/dc68e369b89c1dedd1980612bb86a1ac.jpg"
       },
       {
         "post": "Abacus",
         "department": "Creative Committee",
         "name": "Asif Iqbal Apurba",
+        "facebook": "https://www.facebook.com/asifiqbal.apurba.7",
         "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_auto,f_auto,w_800/v1696866820/46b73c2e140b993999d9a83db514e0c2.png"
       },
       {
         "post": "Proof",
         "department": "Olympiad",
         "name": "Saad Bin Quddus",
+        "facebook": "https://www.facebook.com/saad.binquddus",
         "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_auto,f_auto,w_800/v1696866848/a59cb1d5ceeb35fa92a941ffff3fd3b3.png"
       },
       {
         "post": "Proof",
         "department": "Olympiad",
         "name": "Mashroor Hasan Bhuiyan",
+        "facebook": "https://www.facebook.com/mashroor.hasan.bhuiyan",
         "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_auto,f_auto,w_800/v1696866827/0bb38a52fdc70e015d8b5eca9565842a.png"
       },
       {
         "post": "Relation",
         "department": "Public Relations",
         "name": "Ahad Bin Islam Shoeb",
+        "facebook": "https://www.facebook.com/ahadbin.shoeb",
         "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_auto,f_auto,w_800/v1696866795/2341b54f68308f9224e907b6f6826642.png"
       },
       {
         "post": "Projection",
         "department": "Graphics & Designing",
         "name": "Amiyo Krishnomurti Saha",
+        "facebook": "https://www.facebook.com/amiyo.krishna",
         "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_auto,f_auto,w_800/v1696866801/4324b12e2c55e49efb3f328e54fed858.png"
       },
       { "post": "Proof", "department": "Olympiad", "name": "Md. Rifat Rahman" },
@@ -1082,6 +1090,7 @@
         "post": "Field",
         "department": "Field Work",
         "name": "Minhaz Ahmed",
+        "facebook": "https://www.facebook.com/min.haz.5099",
         "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_auto,f_auto,w_800/v1696866835/939e1db6fe21119d5d9cbc7094dc010a.png"
       },
       {
@@ -1094,12 +1103,14 @@
         "post": "Relation",
         "department": "Public Relations",
         "name": "Mir Muhammad Omayer",
+        "facebook": "https://www.facebook.com/omayerlovescupcakes",
         "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_auto,f_auto,w_800/v1696866839/df6b937d8e2f779effdb67d7d687c98e.png"
       },
       {
         "post": "Field",
         "department": "Field Work",
         "name": "Ismail Hossain Maruf",
+        "facebook": "https://www.facebook.com/ihmaruf51",
         "imgUrl": "https://res.cloudinary.com/ndmc/image/upload/q_auto,f_auto,w_800/v1696866824/319c3dc9fdc7fae9d8ca8e5d8e605e95.png"
       },
       {

@@ -95,9 +95,9 @@ const Footer = () => {
           </div>
 
           <div className="footer-col">
-            <h4>Resources</h4>
+            <h4>Our Resources</h4>
             <ul className="links">
-            <li>
+              <li>
                 <StyledFooterLink component={RouterLink} to={"/resources?tab=articles"}>
                   Articles
                 </StyledFooterLink>
@@ -117,7 +117,12 @@ const Footer = () => {
                   Session
                 </StyledFooterLink>
               </li>
+            </ul>
+          </div>
 
+          <div className="footer-col">
+            <h4>Other Resources</h4>
+            <ul className="links">
               <li>
                 <StyledFooterLink
                   href="https://matholympiad.org.bd/math-related-book-list"

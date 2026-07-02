@@ -5,6 +5,7 @@ import { useSearchParams } from "react-router-dom";
 import { generateSlug, normalizeSearchText } from "../../utils/slugify";
 import sessionData from "../../static-data/session.json";
 import SearchIcon from "@mui/icons-material/Search";
+import usePageTitle from "../../hooks/usePageTitle";
 
 const modalStyle = {
   position: "absolute",
@@ -40,6 +41,7 @@ const CloseButton = styled("button")(({ theme }) => ({
 }));
 
 const Session = () => {
+  usePageTitle("Sessions");
   const theme = useTheme();
   const [searchParams, setSearchParams] = useSearchParams();
   const [openVideo, setOpenVideo] = useState(false);

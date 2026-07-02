@@ -24,9 +24,9 @@ const Events = () => {
   const [clubEvents, setEvents] = useRecoilState(events);
 
   return (
-    <Section style={{ display: "block" }}>
+    <Section style={{ display: "block", padding: "20px 0px" }}>
       <div>
-        <PageTitleContainer>
+        <PageTitleContainer style={{ marginBottom: "30px" }}>
           <SectionSubtitle>Events</SectionSubtitle>
           <SectionTitle>Equations in Action</SectionTitle>
           <NdmcBreadcrumbs

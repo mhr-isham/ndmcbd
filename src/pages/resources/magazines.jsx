@@ -9,6 +9,7 @@ import ViewModuleIcon from "@mui/icons-material/ViewModule";
 import ViewListIcon from "@mui/icons-material/ViewList";
 import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
+import usePageTitle from "../../hooks/usePageTitle";
 
 // ── Styled Components ─────────────────────────────────────────────────────────
 
@@ -155,6 +156,7 @@ const CloseButton = styled("button")(({ theme }) => ({
 // ── Component ─────────────────────────────────────────────────────────────────
 
 const Magazines = () => {
+  usePageTitle("Magazines");
   const [searchParams, setSearchParams] = useSearchParams();
   const [open, setOpen] = useState(false);
   const [selectedPdf, setSelectedPdf] = useState(null);

@@ -3,13 +3,22 @@
     "section": "Weekly Session Handouts",
     "articles": [
       {
+        "id": 6,
+        "title": "Stars & Bars: A Combinatorial Counting Technique",
+        "date": "20/05/2026",
+        "author": "Md. Rafsan Sobhan",
+        "pdfUrl": "https://ndmcbd.org/pdfs/SessionByRafsan.pdf",
+        "videoId": "",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/rough_sun_e5dblx"
+      },
+      {
         "id": 1,
         "title": "Expansion of Functions",
         "date": "13/05/2026",
         "author": "Md. Rezaul Karim",
         "pdfUrl": "https://ndmcbd.org/pdfs/Session_Handouts_4_Reza_sir.pdf",
         "videoId": "",
-        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1778871535/903f56d1-b688-413a-a64c-bc381cb7dc59.png"
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/EXPANSION_OF_FUNCTION_ivckeq"
       },
       {
         "id": 2,
@@ -18,7 +27,7 @@
         "author": "Mohammad Sakib Shahriar",
         "pdfUrl": "https://ndmcbd.org/pdfs/Session_Handouts_Sakib_Sahriar.pdf",
         "videoId": "",
-        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/Session_Handouts_page1_m2ngnc"
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/sakepbai_m3l75o"
       },
       {
         "id": 3,

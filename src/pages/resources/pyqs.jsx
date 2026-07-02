@@ -9,6 +9,7 @@ import ViewListIcon from "@mui/icons-material/ViewList";
 import SearchIcon from "@mui/icons-material/Search";
 import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
+import usePageTitle from "../../hooks/usePageTitle";
 
 const SectionContainer = styled(Box)(({ theme }) => ({
   marginBottom: "1.5rem",
@@ -109,6 +110,7 @@ const CloseButton = styled("button")(({ theme }) => ({
 }));
 
 const PYQs = () => {
+  usePageTitle("PYQs");
   const [searchParams, setSearchParams] = useSearchParams();
   const [open, setOpen] = useState(false);
   const [selectedPdf, setSelectedPdf] = useState(null);

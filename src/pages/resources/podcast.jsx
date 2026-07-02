@@ -5,6 +5,7 @@ import { Modal, Box, TextField, InputAdornment, Button } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import podcastsData from "../../static-data/podcasts.json";
 import SearchIcon from "@mui/icons-material/Search";
+import usePageTitle from "../../hooks/usePageTitle";
 
 const modalStyle = {
   position: "absolute",
@@ -20,6 +21,7 @@ const modalStyle = {
 };
 
 const Podcast = () => {
+  usePageTitle("Podcast");
   const theme = useTheme();
   const [searchParams, setSearchParams] = useSearchParams();
   const [open, setOpen] = useState(false);
@@ -147,12 +149,12 @@ const Podcast = () => {
             </h3>
             {podcast.guest && (
               <p style={{ margin: "5px 0", fontSize: "clamp(14px, 3vw, 16px)", color: "#888", ...(isMobile ? { whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", width: "100%" } : {}) }}>
-                Guests: {podcast.guest}
+                {podcast.guest.includes(",") ? "Guests" : "Guest"}: {podcast.guest}
               </p>
             )}
             {podcast.host && (
               <p style={{ margin: "5px 0", fontSize: "clamp(14px, 3vw, 16px)", color: "#888", ...(isMobile ? { whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", width: "100%" } : {}) }}>
-                Hosts: {podcast.host}
+                {podcast.host.includes(",") ? "Hosts" : "Host"}: {podcast.host}
               </p>
             )}
           </div>

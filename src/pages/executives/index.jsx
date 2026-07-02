@@ -9,6 +9,7 @@ import NdmcBreadcrumbs from "../../components/breadcrumbs";
 import principalImage from "../../assets/principal.jpg";
 import moderatorImage from "../../assets/moderator.jpg";
 import foundingAxiom from "../../assets/foundingAxiom.jpg";
+import formerAxiom from "../../assets/formeraxiom.jpg";
 
 import * as React from "react";
 import Tabs from "@mui/material/Tabs";
@@ -18,6 +19,8 @@ import Box from "@mui/material/Box";
 import { Section } from "../../components/styles/Page.style";
 import FormerExecutives from "./former";
 import CurrentExecutives from "./current";
+
+import usePageTitle from "../../hooks/usePageTitle";
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -46,6 +49,31 @@ function a11yProps(index) {
   };
 }
 
+function Officers() {
+  usePageTitle("Officers");
+  return (
+    <div style={{ marginTop: "20px" }}>
+      <CenterGrid container columns={{ xs: 12, md: 12 }} gap={"1rem"}>
+        <ProfileCard
+          img={principalImage}
+          name={"Dr. Fr. Hemanto Pius Rozario"}
+          post={`Principal`}
+        />
+        <ProfileCard
+          img={foundingAxiom}
+          name={"Md. Rezaul Karim"}
+          post={`Founding and Current Axiom`}
+        />
+        <ProfileCard
+          img={formerAxiom}
+          name={"Md. Azizur Rahman"}
+          post={`Axiom, 2021-2024`}
+        />
+      </CenterGrid>
+    </div>
+  );
+}
+
 export default function Executives() {
   const [value, setValue] = React.useState(1);
 
@@ -54,8 +82,8 @@ export default function Executives() {
   };
 
   return (
-    <Section style={{ display: "block" }}>
-      <PageTitleContainer>
+    <Section style={{ display: "block", padding: "20px 0px" }}>
+      <PageTitleContainer style={{ marginBottom: "30px" }}>
         <SectionSubtitle>Executives</SectionSubtitle>
         <SectionTitle>Meet our Team</SectionTitle>
         <NdmcBreadcrumbs
@@ -81,20 +109,7 @@ export default function Executives() {
           </Tabs>
         </Box>
         <CustomTabPanel value={value} index={0}>
-          <div style={{ marginTop: "20px" }}>
-            <CenterGrid container columns={{ xs: 12, md: 12 }} gap={"1rem"}>
-              <ProfileCard
-                img={principalImage}
-                name={"Dr. Fr. Hemanto Pius Rozario"}
-                post={`Principal`}
-              />
-              <ProfileCard
-                img={foundingAxiom}
-                name={"Md. Rezaul Karim"}
-                post={`Founding Axiom`}
-              />
-            </CenterGrid>
-          </div>
+          <Officers />
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
           <CurrentExecutives />

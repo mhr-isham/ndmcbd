@@ -7,7 +7,7 @@
         "title": "General Problem Solving",
         "author": "Tasdik Ahmed Tonmay",
         "pdfUrl": "https://ndmcbd.org/pdfs/generalpsolving.pdf",
-        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774683666/psolving_vc9t1t.png"
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/psolving_czrbff"
       },
       {
         "id": 2,
@@ -35,7 +35,7 @@
         "title": "Strong Induction",
         "author": "Tasdik Ahmed Tonmay",
         "pdfUrl": "https://ndmcbd.org/pdfs/Strong%20Induction.pdf",
-        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774683666/stronginduction_cvygs3.png"
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/stronginduction_wxmjgg"
       },
       {
         "id": 6,
@@ -227,7 +227,7 @@
         "title": "Inversion",
         "author": "Fahim Sadat",
         "pdfUrl": "https://ndmcbd.org/pdfs/Articles/Geometry/NDMC_Inversive_geometry.pdf",
-        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244195/inversion_fv3y4l.png"
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/inversion_edlkyq"
       },
       {
         "id": 32,
@@ -248,14 +248,14 @@
         "title": "Problem Solver's Odyssey",
         "author": "Samit Sayam Chowdhury",
         "pdfUrl": "https://ndmcbd.org/pdfs/Articles/Geometry/Geometry__The_Solver_s_Odyssey.pdf",
-        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244195/odyssey_wjklov.png"
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/odyssey_qi7fl6"
       },
       {
         "id": 35,
-        "title": "Problem Solving",
+        "title": "Math Olympiad's Geometry Problems",
         "author": "Tajrif Hasan Rafid",
         "pdfUrl": "https://ndmcbd.org/pdfs/Articles/Geometry/problemsolvinggeo.pdf",
-        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244247/problemsolving_klbmjg.png"
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/problemsolving_e3al0q"
       }
     ]
   },
@@ -263,18 +263,11 @@
     "section": "Number Theory",
     "articles": [
       {
-        "id": 36,
-        "title": "Number System",
-        "author": "Suvasish Halder",
-        "pdfUrl": "https://ndmcbd.org/pdfs/Articles/Number-System.pdf",
-        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244195/numbersystem_zaytcx.png"
-      },
-      {
-        "id": 37,
-        "title": "Order and Primitive Roots",
-        "author": "Abhradeep Saha",
-        "pdfUrl": "https://ndmcbd.org/pdfs/Orders%20%26%20Primitive%20Roots.pdf",
-        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774245528/primitiveroot_oxazdl.png"
+        "id": 66,
+        "title": "Bertrand Postulate",
+        "author": "Ontorikkho Mohajan",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Articles/NumberTheory/Bertrand_Postulate.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/bertrandpostulate_pb3zxn"
       },
       {
         "id": 38,
@@ -284,11 +277,18 @@
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244189/divisibility_vel6pe.png"
       },
       {
-        "id": 39,
-        "title": "Euler's Totient Theorem and Fermat's Little Theorem",
-        "author": "Md Raihan Tamzid",
-        "pdfUrl": "https://ndmcbd.org/pdfs/Euler_s_Totient_Theorem_and_Fermat_s_Little_Theorem.pdf",
-        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244191/eulertotient_j4u9tp.png"
+        "id": 36,
+        "title": "Number System",
+        "author": "Suvasish Halder",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Articles/Number-System.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244195/numbersystem_zaytcx.png"
+      },
+      {
+        "id": 69,
+        "title": "Modular Arithmetic",
+        "author": "Abdul Wahid",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Articles/NumberTheory/Modular%20Arithmetic.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/modulararithmetic_ezr7fp"
       },
       {
         "id": 40,
@@ -298,11 +298,18 @@
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244191/chineseremainder_qsar2g.png"
       },
       {
-        "id": 41,
-        "title": "Diophantine Equation",
-        "author": "Mahir Faisal",
-        "pdfUrl": "https://ndmcbd.org/pdfs/Diophantine%20Equation.pdf",
-        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244193/diophantine_vyznwp.png"
+        "id": 39,
+        "title": "Euler's Totient Theorem and Fermat's Little Theorem",
+        "author": "Md Raihan Tamzid",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Euler_s_Totient_Theorem_and_Fermat_s_Little_Theorem.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244191/eulertotient_j4u9tp.png"
+      },
+      {
+        "id": 37,
+        "title": "Order and Primitive Roots",
+        "author": "Abhradeep Saha",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Orders%20%26%20Primitive%20Roots.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774245528/primitiveroot_oxazdl.png"
       },
       {
         "id": 42,
@@ -310,6 +317,34 @@
         "author": "Tajrif Hasan Rafid",
         "pdfUrl": "https://ndmcbd.org/pdfs/Legendre_s%20Formula.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244195/legendre_z4cya6.png"
+      },
+      {
+        "id": 67,
+        "title": "Chicken McNugget Theorem",
+        "author": "Abhradeep Saha",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Articles/NumberTheory/Chicken%20McNugget%20Theorem.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/chickennugget_ke6ls4"
+      },
+      {
+        "id": 41,
+        "title": "Diophantine Equation",
+        "author": "Mahir Faisal",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Diophantine%20Equation.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244193/diophantine_vyznwp.png"
+      },
+      {
+        "id": 70,
+        "title": "Pell's Equation",
+        "author": "Sha Newaz Zarif",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Articles/NumberTheory/Pell%27s%20Equation.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/pelleq_ealym1"
+      },
+      {
+        "id": 68,
+        "title": "Lifting the Exponent",
+        "author": "Junaed Labeeb Al Waasi",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Articles/NumberTheory/LTE.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/liftingtheexponent_h2mbsp"
       }
     ]
   },
@@ -324,18 +359,25 @@
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244192/floorandceiling_jvt2gq.png"
       },
       {
-        "id": 44,
-        "title": "Functional Equations: Some Overkill Techniques",
-        "author": "Md. Samiul Hasan Sami",
-        "pdfUrl": "https://ndmcbd.org/pdfs/Functional-Equations-Some-Overkill-Techniques.pdf",
-        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244193/function2_ttotp2.png"
+        "id": 47,
+        "title": "Sigma and Pi Notation",
+        "author": "Abhradeep Saha",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Sigma%20and%20Pi%20Notation.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244248/sigmaandpi_vtixry.png"
       },
       {
-        "id": 45,
-        "title": "Functional Equation",
-        "author": "Showmajit Saha",
-        "pdfUrl": "https://ndmcbd.org/pdfs/Functional%20Equation.pdf",
-        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244193/function1_pfkuir.png"
+        "id": 63,
+        "title": "Polynomials",
+        "author": "Snehashish Chowdhury",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Articles/Algebra/Polynomials.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/polynomial_xaqkp7"
+      },
+      {
+        "id": 62,
+        "title": "Integer Polynomial",
+        "author": "Md. Samiul Hasan Sami",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Articles/Algebra/Integer%20Polynomial.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/integerpoly_cnamik"
       },
       {
         "id": 46,
@@ -345,11 +387,46 @@
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244194/inequality_hpfywa.png"
       },
       {
-        "id": 47,
-        "title": "Sigma and Pi Notation",
+        "id": 61,
+        "title": "Cauchy Inequality",
         "author": "Abhradeep Saha",
-        "pdfUrl": "https://ndmcbd.org/pdfs/Sigma%20and%20Pi%20Notation.pdf",
-        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244248/sigmaandpi_vtixry.png"
+        "pdfUrl": "https://ndmcbd.org/pdfs/Articles/Algebra/Cauchy%20Inequality.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/cauchy_tvdqkt"
+      },
+      {
+        "id": 60,
+        "title": "Functional Equation Basics",
+        "author": "Tasdik Ahmed Tonmay",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Articles/Algebra/Functional%20Equation%20Basics.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/function0_d0sbuf"
+      },
+      {
+        "id": 45,
+        "title": "Functional Equation",
+        "author": "Showmajit Saha",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Functional%20Equation.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244193/function1_pfkuir.png"
+      },
+      {
+        "id": 44,
+        "title": "Functional Equations: Some Overkill Techniques",
+        "author": "Md. Samiul Hasan Sami",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Functional-Equations-Some-Overkill-Techniques.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244193/function2_ttotp2.png"
+      },
+      {
+        "id": 64,
+        "title": "Sequence and Series",
+        "author": "S.M. Abdul Fattah",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Articles/Algebra/Sequence_and_series.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/series_bemits"
+      },
+      {
+        "id": 65,
+        "title": "Telescoping Series",
+        "author": "Towkir Mahmud Tripto",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Articles/Algebra/Telescoping%20Series.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/telescope_wh9bfl"
       }
     ]
   },
@@ -378,6 +455,13 @@
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244194/integration_qa2lws.png"
       },
       {
+        "id": 58,
+        "title": "Feynman Technique of Integration (Bangla)",
+        "author": "Muntasir Khan Rafi",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Articles/Calculus/Feynman_Technique_of_Integration__Bangla_.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/feynmann_jf83tt"
+      },
+      {
         "id": 51,
         "title": "Feynman Technique of Integration",
         "author": "Muntasir Khan Rafi",
@@ -399,11 +483,25 @@
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244192/diffeq_xbqgou.png"
       },
       {
+        "id": 71,
+        "title": "Taylor and Maclaurin Series",
+        "author": "Mohammad Sakib Shahriar",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Articles/Calculus/Taylor%20and%20Maclaurin%20Series.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/taylorandmac_xl2t03"
+      },
+      {
         "id": 54,
         "title": "Taylor Series of Cosine Function",
         "author": "Showmajit Saha",
         "pdfUrl": "https://ndmcbd.org/pdfs/Taylor%20Series%20of%20Cosine%20Function.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244267/taylorseries_ortz6p.png"
+      },
+      {
+        "id": 59,
+        "title": "Differential Elements",
+        "author": "Mohammad Sakib Shahriar",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Articles/Calculus/Differential Elements.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/diffelements_jtdjwh"
       },
       {
         "id": 55,
@@ -430,6 +528,13 @@
         "author": "Tasdik Ahmed Tonmay",
         "pdfUrl": "https://ndmcbd.org/pdfs/From%20Conics%20to%20Cosmos.pdf",
         "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1774244192/conicscosmos_nddb2u.png"
+      },
+      {
+        "id": 72,
+        "title": "Inverse Matrix Insights",
+        "author": "Md Iftiar Hasan Jihad",
+        "pdfUrl": "https://ndmcbd.org/pdfs/Articles/inversematrix.pdf",
+        "thumbnail": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/inversematrix_i7wqun"
       }
     ]
   }
