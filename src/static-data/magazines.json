@@ -31,11 +31,18 @@
         "imgurl": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/v1778919591/3rd_front_i7hszd.png"
       },
       {
-        "id": 4,
+        "id": 5,
         "title": "The Function | 2nd Edition",
         "publishyear": "2018-2019",
         "pdfurl": "https://ndmcbd.org/pdfs/Magazines/TheFunction18-19.pdf",
         "imgurl": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/2ndfront_zks5z1.jpg"
+      },
+      {
+        "id": 6,
+        "title": "The Function | 1st Edition",
+        "publishyear": "2017-2018",
+        "pdfurl": "https://ndmcbd.org/pdfs/Magazines/TheFunction17-18.pdf",
+        "imgurl": "https://res.cloudinary.com/dh4j8hdty/image/upload/q_auto,f_auto,w_800/1stfront_vjppfl.jpg"
       }
     ]
   }
